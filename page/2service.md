@@ -12,15 +12,20 @@ icon: heart
 
 ##### Academic Service
 
-  - Invited Reviewer for [SIAM SDM 2024](https://www.siam.org/conferences/cm/conference/sdm24), [IEEE ICASSP 2024](https://2024.ieeeicassp.org/), [IEEE TIFS Journal](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206)
+  - Invited Reviewer for [NeurIPS 2024](https://neurips.cc/), [CVPR 2024 - AI City Challenge](https://www.aicitychallenge.org/), [IEEE IJCB 2024 - AI4BIO](https://sites.google.com/view/ai4bio2024)
+
+  - Invited Reviewer for Artifacts from [ACM CCS 2024](https://www.sigsac.org/ccs/CCS2024/call-for/call-for-artifacts.html) and [NDSS 2025](https://www.ndss-symposium.org/ndss2025/submisions/call-for-artifacts/)
+
+  - Invited Reviewer for [SIAM SDM 2024](https://www.siam.org/conferences/cm/conference/sdm24), [IEEE ICASSP 2024](https://2024.ieeeicassp.org/)
 
   - Invited Reviewer for [ACM SIGKDD 2023](https://kdd.org/kdd2023/), [ACM SIGMOD 2023 Reproducibility](https://reproducibility.sigmod.org/) 
 
   - Invited Reviewer for [KDD 2023 Workshop FL4Data-Mining](https://fl4data-mining.github.io/) and [AAAI 2023 Workshop DCAA](https://ncsu-dk-lab.github.io/workshops/dcaa@2023/)
 
-  - External Reviewer for [ACM SenSys 2023](https://sensys.acm.org/2023/), [IEEE INFOCOM 2024](https://infocom2024.ieee-infocom.org/), [IEEE TDSC](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8858), [ACM TIST Journal](https://dl.acm.org/journal/tist)
+  - Invited Reviewer for [IEEE TIFS Journal](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206), [ACM TIST Journal](https://dl.acm.org/journal/tist), [IEEE TKDE journal](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=69), [ACM IoT journal](https://dl.acm.org/journal/tiot)
 
 ##### Student Service
+  * The Graduate Admissions Committee in CSE @ USF in 2024.
 
   * The Vice President of the IEEE MSU Student Branch in 2023.
 
