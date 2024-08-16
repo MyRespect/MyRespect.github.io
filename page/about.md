@@ -13,7 +13,7 @@ icon: heart
 
 - Dr. Guangjing Wang is a tenure-track assistant professor in the [Department of Computer Science](https://www.usf.edu/engineering/cse/) at the [University of South Florida](http://usf.edu/). He earned his Ph.D. in computer science from [Michigan State University](https://msu.edu/) in 2024. Prior to that, he obtained his master’s degree in computer science from the [University of Science and Technology of China](https://en.wikipedia.org/wiki/University_of_Science_and_Technology_of_China) in 2020 and his bachelor’s degree in computer science from [Southwest University](https://en.wikipedia.org/wiki/Southwest_University) in 2017. 
 
-- Dr. Wang's primary research work lies in Data-centric AI, with interdisciplinary studies involving AI for security and privacy, mobile sensing, and IoT data management. His research work has been published in top-tier conferences such as SIGMOD, ICDE, MobiCom, MobiSys, UbiComp, and INFOCOM. Now he pays more attention to the following topics:
+- Dr. Wang's primary research work lies in data-centric AI, with interdisciplinary studies involving AI for security and privacy, mobile sensing, and IoT data management. His research work has been published in top-tier conferences such as SIGMOD, ICDE, MobiCom, MobiSys, UbiComp, and INFOCOM. Now he pays more attention to the following topics:
   - LLM Agents: Exploring large language models for various applications.
   - Security and Privacy: Addressing challenges in safeguarding data and systems.
   - Sensing and its data management: Leveraging various devices to collect, analyze and manage multimodal data from the physical world.
@@ -32,7 +32,7 @@ of the ACM Conference on Computer and Communications Security [(CCS 2024)](https
 
 ### PhD Program Opportunities
 >
-Dr. Wang is looking for **self-motivated** students with a strong interest in one of the areas *[AI, security, privacy, mobile and IoT systems]*. Qualified candidates will be supported to enroll in the computer science PhD program at the University of South Florida with full assistantships. Undergraduates are also warmly welcome to work with Guangjing to gain research experience and stipend opportunities.
+Dr. Wang is looking for **self-motivated** students with a strong interest in one of the areas *[AI, security, privacy, mobile and IoT systems]*. Qualified candidates will be supported with full assistantships during the CS PhD program at the University of South Florida. Undergraduates are also warmly welcome to work with Guangjing to gain research experience and stipend opportunities.
 >
 If this opportunity aligns with your research interests, please email [Guangjing](mailto:guangjingwang@usf.edu?subject=[PhD Application]) your resume and any supplementary materials that showcase your academic background and research experience. 
 <a href='https://clustrmaps.com/site/1bt63'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=ffffff&w=300&t=n&d=dHdnU5c0UwNw2cYA_ZLwAMIEdXjQNVpKaNpv0CLyNVE' style="display: none;"/></a>

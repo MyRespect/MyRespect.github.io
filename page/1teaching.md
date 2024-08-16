@@ -11,7 +11,7 @@ icon: pencil
 
 
 ##### Graduate Course
-- Fall 2024 [CIS6930 Trustworthy AI Systems](https://myrespect.github.io/CIS6930/), Creator and Instructor @ USF
+- Fall 2024 [CIS6930 Trustworthy AI Systems](https://guangjing.wang/CIS6930/), Creator and Instructor @ USF
 
 #### Undergraduate Course
 
