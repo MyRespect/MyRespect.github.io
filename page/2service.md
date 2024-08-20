@@ -12,11 +12,13 @@ icon: heart
 
 ##### Academic Service
 
-  - Invited Reviewer for [NeurIPS 2024](https://neurips.cc/), [CVPR 2024 - AI City Challenge](https://www.aicitychallenge.org/), [IEEE IJCB 2024 - AI4BIO](https://sites.google.com/view/ai4bio2024)
+  - Invited Reviewer for [IEEE CNCC 2025](https://ccnc2025.ieee-ccnc.org/), [IEEE ICASSP 2025](https://2025.ieeeicassp.org/)
+
+  - Invited Reviewer for [NeurIPS 2024](https://neurips.cc/), [CVPR 2024 - AI City Challenge](https://www.aicitychallenge.org/), [IEEE IJCB 2024 - AI4BIO](https://sites.google.com/view/ai4bio2024) 
 
   - Invited Reviewer for Artifacts from [ACM CCS 2024](https://www.sigsac.org/ccs/CCS2024/call-for/call-for-artifacts.html) and [NDSS 2025](https://www.ndss-symposium.org/ndss2025/submisions/call-for-artifacts/)
 
-  - Invited Reviewer for [SIAM SDM 2024](https://www.siam.org/conferences/cm/conference/sdm24), [IEEE ICASSP 2024](https://2024.ieeeicassp.org/)
+  - Invited Reviewer for [SIAM SDM 2024](https://www.siam.org/conferences/cm/conference/sdm24), [IEEE ICASSP 2024](https://2024.ieeeicassp.org/) 
 
   - Invited Reviewer for [ACM SIGKDD 2023](https://kdd.org/kdd2023/), [ACM SIGMOD 2023 Reproducibility](https://reproducibility.sigmod.org/) 
 

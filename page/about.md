@@ -20,6 +20,8 @@ icon: heart
 
 ### News and Updates
 
+- [08/20/2024] Guangjing is invited to serve on program committee at the IEEE International Conference on Acoustics, Speech, and Signal Processing [(ICASSP 2025)](https://2025.ieeeicassp.org/).
+- [08/20/2024] Guangjing is invited to serve on the technical program committee at the IEEE Consumer Communications and Networking Conference [(CNCC 2025)](https://ccnc2025.ieee-ccnc.org/).
 - [08/10/2024] Our paper "Protecting Activity Sensing Data Privacy Using Hierarchical Information Dissociation" has been accepted by IEEE Conference on Communications and Network Security [(IEEE CNS 2024)](https://cns2024.ieee-cns.org/).
 - [06/22/2024] Guangjing is invited to serve on the program committee at the Artifact Evaluation
 of the Network and Distributed System Security Symposium [(NDSS 2025)](https://www.ndss-symposium.org/ndss2025/).
