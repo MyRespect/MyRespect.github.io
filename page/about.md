@@ -20,17 +20,19 @@ icon: heart
 
 ### News and Updates
 
+- [06/22/2024] Guangjing is invited to serve on the program committee at the Artifact Evaluation
+of the International Conference on Management of Data [(SIGMOD 2024)](https://2024.sigmod.org/).
 - [08/20/2024] Guangjing is invited to serve on program committee at the IEEE International Conference on Acoustics, Speech, and Signal Processing [(ICASSP 2025)](https://2025.ieeeicassp.org/).
 - [08/20/2024] Guangjing is invited to serve on the technical program committee at the IEEE Consumer Communications and Networking Conference [(CNCC 2025)](https://ccnc2025.ieee-ccnc.org/).
-- [08/10/2024] Our paper "Protecting Activity Sensing Data Privacy Using Hierarchical Information Dissociation" has been accepted by IEEE Conference on Communications and Network Security [(IEEE CNS 2024)](https://cns2024.ieee-cns.org/).
+- [08/10/2024] Our paper "**Protecting Activity Sensing Data Privacy Using Hierarchical Information Dissociation**" has been accepted by IEEE Conference on Communications and Network Security [(IEEE CNS 2024)](https://cns2024.ieee-cns.org/).
 - [06/22/2024] Guangjing is invited to serve on the program committee at the Artifact Evaluation
 of the Network and Distributed System Security Symposium [(NDSS 2025)](https://www.ndss-symposium.org/ndss2025/).
-- [06/13/2024] Our paper "WavePurifier: Purifying Audio Adversarial Examples via Hierarchical Diffusion Models" has been accepted by International Conference on Mobile Computing and Networking [(ACM MobiCom 2024)](https://www.sigmobile.org/mobicom/2024/).
+- [06/13/2024] Our paper "**WavePurifier: Purifying Audio Adversarial Examples via Hierarchical Diffusion Models**" has been accepted by International Conference on Mobile Computing and Networking [(ACM MobiCom 2024)](https://www.sigmobile.org/mobicom/2024/).
 - [06/11/2024] Guangjing is invited to serve on the program committee at the Annual Conference on Neural Information Processing Systems [(NeurIPS 2024)](https://neurips.cc/).
 - [05/13/2024] Guangjing has successfully defended his PhD dissertation "[Data-Centric AI for Interaction Security and Privacy in the Internet-of-Things](https://www.proquest.com/openview/01e768d32f42571541fd5a5777bed3b1)". Thank you, my guidance committee and friends!
 - [04/09/2024] Guangjing is invited to serve on the program committee at the Artifact Evaluation
 of the ACM Conference on Computer and Communications Security [(CCS 2024)](https://www.sigsac.org/ccs/CCS2024/call-for/call-for-artifacts.html).
-- [03/08/2024] Our paper "Towards Low-cost Soil Macronutrients and Moisture Monitoring Using RF-VNIR Sensing" has been accepted by International Conference on Mobile Systems, Applications, and Services [(ACM MobiSys 2024)](https://www.sigmobile.org/mobisys/2024/).
+- [03/08/2024] Our paper "[Towards Low-cost Soil Macronutrients and Moisture Monitoring Using RF-VNIR Sensing](https://dl.acm.org/doi/10.1145/3643832.3661868)" has been accepted by International Conference on Mobile Systems, Applications, and Services [(ACM MobiSys 2024)](https://www.sigmobile.org/mobisys/2024/).
 
 ### PhD Program Opportunities
 >
