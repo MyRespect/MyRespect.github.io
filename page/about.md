@@ -20,7 +20,8 @@ icon: heart
 
 ### News and Updates
 
-- [06/22/2024] Guangjing is invited to serve on the program committee at the Artifact Evaluation
+- [08/23/2024] Guangjing is invited to serve on the program committee at the International Conference on Learning Representations [(ICLR 2025)](https://iclr.cc/Conferences/2025).
+- [08/22/2024] Guangjing is invited to serve on the program committee at the Artifact Evaluation
 of the International Conference on Management of Data [(SIGMOD 2024)](https://2024.sigmod.org/).
 - [08/20/2024] Guangjing is invited to serve on program committee at the IEEE International Conference on Acoustics, Speech, and Signal Processing [(ICASSP 2025)](https://2025.ieeeicassp.org/).
 - [08/20/2024] Guangjing is invited to serve on the technical program committee at the IEEE Consumer Communications and Networking Conference [(CNCC 2025)](https://ccnc2025.ieee-ccnc.org/).
