@@ -16,10 +16,11 @@ icon: heart
 - Dr. Wang's primary research work lies in data-centric AI, with interdisciplinary studies involving AI for security and privacy, mobile sensing, and IoT data management. His research work has been published in top-tier conferences such as SIGMOD, ICDE, MobiCom, MobiSys, UbiComp, and INFOCOM. Now he pays more attention to the following topics:
   - LLM Agents: Exploring large language models for various applications.
   - Security and Privacy: Addressing challenges in safeguarding data and systems.
-  - Sensing and its data management: Leveraging various devices to collect, analyze and manage multimodal data from the physical world.
+  - Sensing and Its Data Management: Leveraging various devices to collect, analyze and manage multimodal data from the physical world.
 
 ### News and Updates
 
+- [08/27/2024] Our paper "**Joint Client-and-Sample Selection for Federated Learning via Bi-level Optimization**" has been accepted by IEEE Transactions on Mobile Computing [(IEEE TMC)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7755).
 - [08/23/2024] Guangjing is invited to serve on the program committee at the International Conference on Learning Representations [(ICLR 2025)](https://iclr.cc/Conferences/2025).
 - [08/22/2024] Guangjing is invited to serve on the program committee at the Artifact Evaluation
 of the International Conference on Management of Data [(SIGMOD 2024)](https://2024.sigmod.org/).
