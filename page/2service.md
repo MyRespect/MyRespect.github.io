@@ -12,6 +12,8 @@ icon: heart
 
 ##### Academic Service
 
+  - Invited Reviewer for the Journal [Computers and Security](https://www.sciencedirect.com/journal/computers-and-security)
+
   - Invited Reviewer for [IEEE CNCC 2025](https://ccnc2025.ieee-ccnc.org/), [IEEE ICASSP 2025](https://2025.ieeeicassp.org/), [ICLR 2025](https://iclr.cc/Conferences/2025), [SIGMOD 2024 Artifact](https://2024.sigmod.org/)
 
   - Invited Reviewer for [NeurIPS 2024](https://neurips.cc/), [CVPR 2024 - AI City Challenge](https://www.aicitychallenge.org/), [IEEE IJCB 2024 - AI4BIO](https://sites.google.com/view/ai4bio2024) 

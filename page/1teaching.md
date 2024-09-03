@@ -11,7 +11,9 @@ icon: pencil
 
 
 ##### Graduate Course
-- Fall 2024 [CIS6930 Trustworthy AI Systems](https://guangjing.wang/CIS6930/), Creator and Instructor @ USF
+- Fall 2024 [CIS6930-04 Trustworthy AI Systems](https://guangjing.wang/CIS6930/), Creator and Instructor @ USF
+
+- Fall 2024 [CIS6930-08 Security and Privacy in Machine Learning](https://guangjing.wang/teaching), Instructor @ USF
 
 #### Undergraduate Course
 

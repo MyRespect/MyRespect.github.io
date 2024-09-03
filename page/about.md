@@ -20,6 +20,7 @@ icon: heart
 
 ### News and Updates
 
+- [09/02/2024] Our paper "**Optical Lens Attacks on Deep Learning Based Monocular Depth Estimation**" has been accepted by the 20th International Conference on Security and Privacy in Communication Networks [(EAI SecureComm 2024)](https://securecomm.eai-conferences.org/2024/).
 - [08/27/2024] Our paper "**Joint Client-and-Sample Selection for Federated Learning via Bi-level Optimization**" has been accepted by IEEE Transactions on Mobile Computing [(IEEE TMC)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7755).
 - [08/23/2024] Guangjing is invited to serve on the program committee at the International Conference on Learning Representations [(ICLR 2025)](https://iclr.cc/Conferences/2025).
 - [08/22/2024] Guangjing is invited to serve on the program committee at the Artifact Evaluation
