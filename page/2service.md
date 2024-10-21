@@ -12,21 +12,17 @@ icon: heart
 
 ##### Academic Service
 
-  - Invited Reviewer for the Journal [Computers and Security](https://www.sciencedirect.com/journal/computers-and-security)
+  - Invited Reviewer for [NeurIPS 2024](https://neurips.cc/), [ICLR 2025](https://iclr.cc/Conferences/2025)
 
-  - Invited Reviewer for [IEEE CNCC 2025](https://ccnc2025.ieee-ccnc.org/), [IEEE ICASSP 2025](https://2025.ieeeicassp.org/), [ICLR 2025](https://iclr.cc/Conferences/2025), [SIGMOD 2024 Artifact](https://2024.sigmod.org/)
+  - Invited Reviewer for  from [ACM CCS 2024 Artifacts](https://www.sigsac.org/ccs/CCS2024/call-for/call-for-artifacts.html), [NDSS 2025 Artifacts](https://www.ndss-symposium.org/ndss2025/submisions/call-for-artifacts/), [NDSS 2025 Poster](https://www.ndss-symposium.org/ndss2025/)
 
-  - Invited Reviewer for [NeurIPS 2024](https://neurips.cc/), [CVPR 2024 - AI City Challenge](https://www.aicitychallenge.org/), [IEEE IJCB 2024 - AI4BIO](https://sites.google.com/view/ai4bio2024) 
+  - Invited Reviewer for [SIAM SDM 2024](https://www.siam.org/conferences/cm/conference/sdm24), [ACM SIGKDD 2023](https://kdd.org/kdd2023/), [ACM SIGMOD 2023 and 2024 Reproducibility](https://reproducibility.sigmod.org/)
 
-  - Invited Reviewer for Artifacts from [ACM CCS 2024](https://www.sigsac.org/ccs/CCS2024/call-for/call-for-artifacts.html) and [NDSS 2025](https://www.ndss-symposium.org/ndss2025/submisions/call-for-artifacts/)
+  - Invited Reviewer for [IEEE CNCC 2025](https://ccnc2025.ieee-ccnc.org/), [IEEE ICASSP 2025 and 2024](https://2025.ieeeicassp.org/)
 
-  - Invited Reviewer for [SIAM SDM 2024](https://www.siam.org/conferences/cm/conference/sdm24), [IEEE ICASSP 2024](https://2024.ieeeicassp.org/) 
+  - Invited Reviewer for Workshops [AAAI 2025 - FLUID](https://fluidworkshop.github.io/), [CVPR 2024 - AI City Challenge](https://www.aicitychallenge.org/), [IJCB 2024 - AI4BIO](https://sites.google.com/view/ai4bio2024), [AAAI 2023 - DCAA](https://ncsu-dk-lab.github.io/workshops/dcaa@2023/), [KDD 2023 - FL4Data-Mining](https://fl4data-mining.github.io/)
 
-  - Invited Reviewer for [ACM SIGKDD 2023](https://kdd.org/kdd2023/), [ACM SIGMOD 2023 Reproducibility](https://reproducibility.sigmod.org/) 
-
-  - Invited Reviewer for [KDD 2023 Workshop FL4Data-Mining](https://fl4data-mining.github.io/) and [AAAI 2023 Workshop DCAA](https://ncsu-dk-lab.github.io/workshops/dcaa@2023/)
-
-  - Invited Reviewer for [IEEE TIFS Journal](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206), [ACM TIST Journal](https://dl.acm.org/journal/tist), [IEEE TKDE journal](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=69), [ACM IoT journal](https://dl.acm.org/journal/tiot)
+  - Invited Reviewer for Journals [IEEE TIFS](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206), [ACM TIST](https://dl.acm.org/journal/tist), [IEEE TKDE](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=69), [ACM IoT](https://dl.acm.org/journal/tiot), [Computers and Security](https://www.sciencedirect.com/journal/computers-and-security)
 
 ##### Student Service
   * The Graduate Admissions Committee in CSE @ USF in 2024.
