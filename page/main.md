@@ -2,7 +2,7 @@
 layout: page
 permalink: /
 redirect_from:
-  - /about
+  - /main
 icon: heart
 ---
 
@@ -14,12 +14,16 @@ icon: heart
 - Dr. Guangjing Wang is a tenure-track assistant professor in the [Department of Computer Science](https://www.usf.edu/engineering/cse/) at the [University of South Florida](http://usf.edu/). He earned his Ph.D. in computer science from [Michigan State University](https://msu.edu/) in 2024. Prior to that, he obtained his master’s degree in computer science from the [University of Science and Technology of China](https://en.wikipedia.org/wiki/University_of_Science_and_Technology_of_China) in 2020 and his bachelor’s degree in computer science from [Southwest University](https://en.wikipedia.org/wiki/Southwest_University) in 2017. 
 
 - Dr. Wang's primary research work lies in data-centric AI, with interdisciplinary studies involving AI for security and privacy, mobile sensing, and IoT data management. His research work has been published in top-tier conferences such as SIGMOD, ICDE, MobiCom, MobiSys, UbiComp, and INFOCOM. Now he pays more attention to the following topics:
-  - LLM Agents: Exploring large language models for various applications.
+  - AI Agents: Exploring AI agent-based models for cybersecurity applications.
   - Security and Privacy: Addressing challenges in safeguarding data and systems.
-  - Sensing and Its Data Management: Leveraging various devices to collect, analyze, and manage multimodal data from the physical world.
+  - Sensing and Its Data Management: Multimodal data collection, analysis and management.
 
 ### News and Updates
-
+- [01/13/2025] Guangjing is invited to serve on the program committee at the International Joint Conferences on Artificial Intelligence [(IJCAI 2025)](https://2025.ijcai.org/).
+- [12/18/2024] Guangjing is invited to serve on the program committee at the International Joint Conference on Neural Networks [(IJCNN 2025)](https://2025.ijcnn.org/).
+- [12/16/2024] Guangjing is invited to serve on the program committee at the USENIX Symposium
+on Vehicle Security and Privacy [(VehicleSec 2025)](https://www.usenix.org/conference/vehiclesec25).
+- [12/11/2024] Guangjing is invited to serve on the program committee at the International Conference on Machine Learning [(ICML 2025)](https://icml.cc/).
 - [09/02/2024] Our paper "**Optical Lens Attacks on Deep Learning Based Monocular Depth Estimation**" has been accepted by the 20th International Conference on Security and Privacy in Communication Networks [(EAI SecureComm 2024)](https://securecomm.eai-conferences.org/2024/).
 - [08/27/2024] Our paper "**Joint Client-and-Sample Selection for Federated Learning via Bi-level Optimization**" has been accepted by IEEE Transactions on Mobile Computing [(IEEE TMC)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7755).
 - [08/23/2024] Guangjing is invited to serve on the program committee at the International Conference on Learning Representations [(ICLR 2025)](https://iclr.cc/Conferences/2025).
@@ -39,7 +43,7 @@ of the ACM Conference on Computer and Communications Security [(CCS 2024)](https
 
 ### PhD Program Opportunities
 >
-Dr. Wang is looking for **self-motivated** students with a strong interest in one of the areas *[AI, security, privacy, mobile and IoT systems]*. Qualified candidates will be supported with full assistantships during the CS PhD program at the University of South Florida. Undergraduates are also warmly welcome to work with Guangjing to gain research experience and stipend opportunities.
+Dr. Wang is looking for **self-motivated** students with a strong interest in one of the areas *[AI, security, privacy, mobile and IoT systems]*. Qualified candidates will be supported with full assistantships during the CS PhD program at the University of South Florida. Undergraduates are also warmly welcome to work with Guangjing to gain research experience.
 >
 If this opportunity aligns with your research interests, please email [Guangjing](mailto:guangjingwang@usf.edu?subject=[PhD Application]) your resume and any supplementary materials that showcase your academic background and research experience. 
 <a href='https://clustrmaps.com/site/1bt63'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=ffffff&w=300&t=n&d=dHdnU5c0UwNw2cYA_ZLwAMIEdXjQNVpKaNpv0CLyNVE' style="display: none;"/></a>
