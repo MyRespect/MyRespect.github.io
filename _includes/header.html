@@ -1,0 +1,40 @@
+<header id="top">
+    <div class="wrapper">
+        <a href="{{ site.baseurl }}/" class="brand">{{ site.title }}</a>
+        <small>{{site.brief-intro}}</small>
+        <button id="headerMenu" class="menu"><i class="fa fa-bars"></i></button>
+        <nav id="headerNav">
+            <ul>
+                <li>
+                    {% if page.url == '/' %}
+                    <a class="active" href="{{site.baseurl}}/">
+                        {% else %}
+                    <a href="{{site.baseurl}}/">
+                    {% endif %}
+                        <i class="fa fa-home"></i>Home
+                    </a>
+                </li>
+                {% for my_page in site.pages %}
+                    {% if my_page.title %}
+                        {% if my_page.title != "Categories" and my_page.title != "Tags" and my_page.title != "Archives"%}
+                        <li>
+                            {% if my_page.url == page.url %}
+                            <a class="active" href="{{ my_page.url | prepend: site.baseurl }}">
+                            {% else %}
+                            <a href="{{ my_page.url | prepend: site.baseurl }}">
+                            {% endif %}
+                                <i class="fa fa-{{my_page.icon}}"></i>{{ my_page.title }}
+                            </a>
+                        </li>
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}
+                <li>
+                    <a href="/teaching/"> <i class="fa fa-pencil"></i>Teaching</a>
+                    <a href="/services/"> <i class="fa fa-heart"></i>Services</a>
+                    <a href="/advisees/"> <i class="fa fa-users"></i>Advisees</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
