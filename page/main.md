@@ -19,6 +19,8 @@ icon: heart
   - Mobile Sensing and Data Management: Advancing multimodal data collection, analysis, and management.
 
 ### News and Updates
+- [02/03/2026] Our preliminary work, led by the fourth-year PhD student Yuwen, "**Towards Model Drift Resistant Website Fingerprinting with Time-Series LLMs**", has been accepted to [NDSS 2026](https://www.ndss-symposium.org/ndss2026/submissions/call-for-posters/) Poster Session.
+- [01/29/2026] Guangjing is invited to serve on the Poster/Demo program committee at the 4th USENIX Symposium on Vehicle Security and Privacy [(VehicleSec 2026)](https://www.usenix.org/conference/vehiclesec26).
 - [01/15/2026] Our paper "**SoilNutri: A Passive Metasurface-Based, Low-Cost System for Soil Moisture and Nitrogen Monitoring**" has been accepted by the ACM IMWUT Journal (As Conference [UbiComp 2026](https://www.ubicomp.org/ubicomp-iswc-2026/)).
 - [01/05/2026] Guangjing is invited to serve as the Web Chair at the 4th EAI International Conference on Security and Privacy in Cyber-Physical Systems and Smart Vehicles [(SmartSP 2026)](https://smartsp.eai-conferences.org/2026/). Welcome Submission!
 - [12/18/2025] Guangjing is invited to serve on the program committee at the International Conference on Machine Learning [(ICML 2026)](https://icml.cc/Conferences/2026/).

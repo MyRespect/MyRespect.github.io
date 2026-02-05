@@ -12,7 +12,7 @@ icon: pencil
 
 ##### Graduate Courses
 
-- Spring 2026 [CIS4930 Agentic AI](https://guangjing.wang/teaching), Creator and Instructor @ USF
+- Spring 2026 [CIS4930 Agentic AI](https://guangjing.wang/CAI4520/), Creator and Instructor @ USF
 
 - Fall 2025 [CAI6605 Trustworthy AI Systems](https://guangjing.wang/CAI6605/), Creator and Instructor @ USF
 
