@@ -12,7 +12,7 @@ icon: heart
 
 ##### Academic Service
 
-  - Invited Reviewer for [NeurIPS 2024 and 2025](https://neurips.cc/), [ICLR 2025 and 2026](https://iclr.cc/Conferences/2025), [ICML 2025](https://icml.cc/), [IJCAI 2025](https://2025.ijcai.org/), [IJCNN 2025](https://2025.ijcnn.org/)
+  - Invited Reviewer for \[[NeurIPS](https://neurips.cc/), [ICLR](https://iclr.cc/Conferences/2025), [ICML](https://icml.cc/), [IJCAI\] for 2025 and 2026](https://2025.ijcai.org/), [IJCNN 2025](https://2025.ijcnn.org/) 
 
   - Invited Reviewer for [NDSS 2025 and 2026 Artifacts](https://www.ndss-symposium.org/ndss2025/submisions/call-for-artifacts/), [NDSS 2025 Poster](https://www.ndss-symposium.org/ndss2025/), [ACM CCS 2024 Artifacts](https://www.sigsac.org/ccs/CCS2024/call-for/call-for-artifacts.html)
 
