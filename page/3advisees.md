@@ -30,21 +30,25 @@ icon: pencil
 
 	- Jiahao Xue <small>(Advisor: Dr. Zhuo Lu)</small>
 
-	- Xiaoran Xu <small>(Advisor: Dr. Ravi Sankar)</small>
+	- Xiaoran Xu <small>(Advisor: Dr. Ravi Sankar; Graduated)</small>
 
 ##### Master Students
 
-- Aastha Sharma
+- Aastha Sharma <small>(Graduated)</small>
 
 - Dylan Girrens
 
+- Suri Ramachandran
+
+- Srinija Reddy Maddula
+
 - Advisory Committee
 
-	- Sudharshan Balaji <small>(Advisor: Dr. Ning Wang)</small>
+	- Sudharshan Balaji <small>(Advisor: Dr. Ning Wang; PhDing)</small>
 
-	- Zhenyi Chen <small>(Advisor: Dr. Yicheng Tu)</small>
+	- Zhenyi Chen <small>(Advisor: Dr. Yicheng Tu; Graduated)</small>
 
-	- Nitesh Vamshi Bommisetty <small>(Advisor: Dr. Gene Kim)</small>
+	- Nitesh Vamshi Bommisetty <small>(Advisor: Dr. Gene Kim; Graduated)</small>
 
 ##### Undergraduates
 
