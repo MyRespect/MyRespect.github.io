@@ -19,6 +19,7 @@ icon: heart
   - Mobile Sensing and Data Management: Advancing multimodal data collection, analysis, and management.
 
 ### News and Updates
+- [04/10/2026] Our paper "**Optical Lens Attack on Monocular Depth Estimation for Autonomous Driving**" has been accepted by ACM Transactions on Cyber-Physical Systems ([ACM TCPS](https://dl.acm.org/journal/tcps)).
 - [04/06/2026] Our work, led by PhD student Kai Wei, "**A Multi-Agent Framework for High-Interaction Terminal Simulation**" has been accepted by the Main Conference of [ACL 2026](https://2026.aclweb.org/).
 - [04/06/2026] Our work, led by Master student Aastha Sharma, "**A Unified Feature Mixture Framework for Joint Speech and Singing Deepfake Detection**" has been accepted by Findings of [ACL 2026](https://2026.aclweb.org/).
 - [04/03/2026] Guangjing is invited to serve on the program committee at the IEEE International Conference on Computer Communications [(IEEE INFOCOM 2027)](https://infocom2027.ieee-infocom.org/).
