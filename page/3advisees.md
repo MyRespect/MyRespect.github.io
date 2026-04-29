@@ -12,7 +12,9 @@ icon: pencil
 
 ##### PhD Students
 
-- Yuwen Cui <small>(Co-advised with Dr. Yao Liu)</small>
+- Yuwen Cui <small>(Prev-Advisor: Dr. Yao Liu)</small>
+
+- Changjia Zhu <small>(Prev-Advisor: Dr. Yao Liu)</small>
 
 - Alabi Mehzabin Anisha <small>(Co-advised with Dr. Sriram Chellappan)</small>
 
@@ -21,12 +23,12 @@ icon: pencil
 - Kehan Shen
 
 - Advisory Committee
+	
+	- Zhengyuan Jiang <small>(Advisor: Dr. Ning Wang)</small>
 
-	- Xiaowen Li <small>(Advisor: Dr. Yao Liu)</small>
+	- Xiaowen Li <small>(Prev-Advisor: Dr. Yao Liu)</small>
 
-	- Changjia Zhu <small>(Advisor: Dr. Yao Liu)</small>
-
-	- Chi Zhang <small>(Advisor: Dr. Zhuo Lu)</small>
+	- Chi Zhang <small>(Prev-Advisor: Dr. Yao Liu)</small>
 
 	- Jiahao Xue <small>(Advisor: Dr. Zhuo Lu)</small>
 

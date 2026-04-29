@@ -19,6 +19,8 @@ icon: heart
   - Mobile Sensing and Data Management: Advancing multimodal data collection, analysis, and management.
 
 ### News and Updates
+- [04/23/2026] Guangjing is invited to give a guest lecture on the topic of the security of computer vision systems in the course CS6406 at the Missouri S&T.
+- [04/20/2026] Guangjing is invited to join an NSF Panel.
 - [04/10/2026] Our paper "**Optical Lens Attack on Monocular Depth Estimation for Autonomous Driving**" has been accepted by ACM Transactions on Cyber-Physical Systems ([ACM TCPS](https://dl.acm.org/journal/tcps)).
 - [04/06/2026] Our work, led by PhD student Kai Wei, "**A Multi-Agent Framework for High-Interaction Terminal Simulation**" has been accepted by the Main Conference of [ACL 2026](https://2026.aclweb.org/).
 - [04/06/2026] Our work, led by Master student Aastha Sharma, "**A Unified Feature Mixture Framework for Joint Speech and Singing Deepfake Detection**" has been accepted by Findings of [ACL 2026](https://2026.aclweb.org/).
