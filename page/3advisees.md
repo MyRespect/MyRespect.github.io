@@ -24,6 +24,8 @@ icon: pencil
 
 - Advisory Committee
 	
+	- Yucheng Zhao <small>(Advisor: Dr. Henian Chen)</small>
+	
 	- Zhengyuan Jiang <small>(Advisor: Dr. Ning Wang)</small>
 
 	- Xiaowen Li <small>(Prev-Advisor: Dr. Yao Liu)</small>

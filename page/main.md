@@ -19,6 +19,9 @@ icon: heart
   - Mobile Sensing and Data Management: Advancing multimodal data collection, analysis, and management.
 
 ### News and Updates
+- [06/03/2026] Our work, led by Aastha Sharma,  "**VoxENES 2026: Benchmarking Generalization of Speech Spoofing Detectors Against LLM-Era TTS and Voice Conversion**" has been accepted by [Interspeech 2026](https://interspeech2026.org/en-AU).
+- [06/03/2026] Our paper "**Learning to Evade: Adaptive Attacks on Audio Watermarking**" has been accepted by the Annual Conference of the International Speech Communication Association ([Interspeech 2026](https://interspeech2026.org/en-AU)).
+- [04/29/2026] Our lab received \$10,000 funding from the NSF CISE REU Student Funding Program in CRA to support US citizen undergraduate research participation.
 - [04/23/2026] Guangjing is invited to give a guest lecture on the topic of the security of computer vision systems in the course CS6406 at the Missouri S&T.
 - [04/20/2026] Guangjing is invited to join an NSF Panel.
 - [04/10/2026] Our paper "**Optical Lens Attack on Monocular Depth Estimation for Autonomous Driving**" has been accepted by ACM Transactions on Cyber-Physical Systems ([ACM TCPS](https://dl.acm.org/journal/tcps)).
@@ -65,9 +68,9 @@ icon: heart
 - [03/08/2024] Our paper "**Towards Low-cost Soil Macronutrients and Moisture Monitoring Using RF-VNIR Sensing**" has been accepted by the International Conference on Mobile Systems, Applications, and Services [(ACM MobiSys 2024)](https://www.sigmobile.org/mobisys/2024/). 
 {% endcomment %}
 
-### PhD Program Opportunities
+<!-- ### PhD Program Opportunities
 >
 Dr. Wang is looking for **self-motivated** students with a strong interest in one of the areas *[AI, security, privacy, mobile and IoT systems]*. Qualified candidates will be supported with full assistantships during the CS PhD program at the University of South Florida. Undergraduates are also warmly welcome to work with Guangjing to gain research experience.
 >
-If this opportunity aligns with your research interests, please email [Guangjing](mailto:guangjingwang@usf.edu?subject=[PhD Application]) your resume and any supplementary materials that showcase your academic background and research experience. 
+If this opportunity aligns with your research interests, please email [Guangjing](mailto:guangjingwang@usf.edu?subject=[PhD Application]) your resume and any supplementary materials that showcase your academic background and research experience.  -->
 <a href='https://clustrmaps.com/site/1bt63'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=ffffff&w=300&t=n&d=dHdnU5c0UwNw2cYA_ZLwAMIEdXjQNVpKaNpv0CLyNVE' style="display: none;"/></a>
