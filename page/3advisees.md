@@ -40,6 +40,8 @@ icon: pencil
 
 - Aastha Sharma <small>(Graduated)</small>
 
+- Ryan Powers
+
 - Dylan Girrens
 
 - Suri Ramachandran
@@ -56,12 +58,10 @@ icon: pencil
 
 ##### Undergraduates
 
+- Rodela Ghosh
+
+- Aviral Gupta
+
 - Khanh Vu
-
-- Omar Shahwan
-
-- Tamer Alqasem
-
-- William Drake
 
 - Nguyen Duy Phuc
