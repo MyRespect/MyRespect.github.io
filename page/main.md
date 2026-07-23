@@ -19,7 +19,7 @@ icon: heart
   - Mobile Sensing and Data Management: Advancing multimodal data collection, analysis, and management.
 
 ### News and Updates
-- [07/17/2026] Our paper "**Scheduler-Driven Backdoor Injection in Split Federated Learning via Gradual Perturbation**" has been accepted by [IEEE CNS 2026](https://cns2026.ieee-cns.org/).
+- [07/17/2026] Our paper "**Scheduler-Driven Backdoor Injection in Split Federated Learning via Gradual Perturbation**" has been accepted by IEEE Conference on Communications and Network Security ([CNS 2026](https://cns2026.ieee-cns.org/)).
 - [06/03/2026] Our work, led by Aastha Sharma,  ["**VoxENES 2026: Benchmarking Generalization of Speech Spoofing Detectors Against LLM-Era TTS and Voice Conversion**"](https://arxiv.org/pdf/2607.11706) has been accepted by [Interspeech 2026](https://interspeech2026.org/en-AU).
 - [06/03/2026] Our paper ["**Learning to Evade: Adaptive Attacks on Audio Watermarking**"](https://arxiv.org/pdf/2606.22310) has been accepted by the Annual Conference of the International Speech Communication Association ([Interspeech 2026](https://interspeech2026.org/en-AU)).
 - [04/29/2026] Our lab received \$10,000 funding from the NSF CISE REU Student Funding Program in CRA to support US citizen undergraduate research participation.

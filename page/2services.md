@@ -18,7 +18,7 @@ icon: heart
 
   - Invited Reviewer for [SIAM SDM 2024](https://www.siam.org/conferences/cm/conference/sdm24), [ACM SIGKDD 2023](https://kdd.org/kdd2023/), [ACM SIGMOD 2023 and 2024 Reproducibility](https://reproducibility.sigmod.org/)
 
-  - Invited Reviewer for [IEEE INFOCOM 2026](https://infocom2026.ieee-infocom.org/group/81), [IEEE CNCC 2025](https://ccnc2025.ieee-ccnc.org/), [IEEE ICASSP 2024 and 2025](https://2025.ieeeicassp.org/), [IEEE DSC 2025](https://attend.ieee.org/dsc-2025/), [IEEE TPS 2025](https://www.sis.pitt.edu/lersais/conference/tps/2025/steerings/), [IEEE ICPADS 2025](http://ieee-icpads.org.cn/)
+  - Invited Reviewer for [IEEE INFOCOM 2026 and 2027](https://infocom2026.ieee-infocom.org/group/81), [IEEE CNCC 2025](https://ccnc2025.ieee-ccnc.org/), [IEEE ICASSP 2024 and 2025](https://2025.ieeeicassp.org/), [IEEE DSC 2025](https://attend.ieee.org/dsc-2025/), [IEEE TPS 2025 and 2026](https://www.sis.pitt.edu/lersais/conference/tps/2025/steerings/), [IEEE ICPADS 2025](http://ieee-icpads.org.cn/)
 
   - Invited Reviewer for Workshops [AAAI 2025 - FLUID](https://fluidworkshop.github.io/), [CVPR 2024 - AI City Challenge](https://www.aicitychallenge.org/), [IJCB 2024 - AI4BIO](https://sites.google.com/view/ai4bio2024), [AAAI 2023 - DCAA](https://ncsu-dk-lab.github.io/workshops/dcaa@2023/), [KDD 2023 - FL4Data-Mining](https://fl4data-mining.github.io/)
 
