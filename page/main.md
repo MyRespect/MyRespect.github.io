@@ -1,0 +1,78 @@
+---
+layout: page
+permalink: /
+redirect_from:
+  - /main
+icon: heart
+---
+
+* content
+{:toc}
+
+### Biography
+
+- Dr. Guangjing Wang is a tenure-track assistant professor in the [Bellini College of Artificial Intelligence, Cybersecurity and Computing](https://www.usf.edu/ai-cybersecurity-computing/index.aspx) at the [University of South Florida](http://usf.edu/). He received his Ph.D. in computer science from [Michigan State University](https://msu.edu/), his M.S. degree in computer science from the [University of Science and Technology of China](https://en.wikipedia.org/wiki/University_of_Science_and_Technology_of_China), and his bachelor's degree in computer science from [Southwest University](https://en.wikipedia.org/wiki/Southwest_University). 
+
+- Dr. Wang’s research primarily focuses on agentic AI, with an emphasis on developing methodologies for robust, efficient, and secure AI. He applies these methodologies to diverse application domains such as cyber deception, research security, information forensics, and digital health. His research has been published in top-tier computer science conferences, such as CVPR, ACL, SIGMOD, ICDE, MobiCom, MobiSys, and UbiComp. He leads the *[Reliable Agentic Intelligence and Secure Ecosystems Laboratory (RAISE Lab)](https://guangjing.wang/advisees/)* focusing on:
+  - Agentic AI: Developing agentic AI-based systems for intelligent and trustworthy decision-making.
+  - Security of AI Systems: Addressing emerging challenges in safeguarding data, models, and systems.
+  - Mobile Sensing and Data Management: Advancing multimodal data collection, analysis, and management.
+
+### News and Updates
+- [07/17/2026] Our paper "**Scheduler-Driven Backdoor Injection in Split Federated Learning via Gradual Perturbation**" has been accepted by IEEE Conference on Communications and Network Security ([CNS 2026](https://cns2026.ieee-cns.org/)).
+- [06/03/2026] Our work, led by Aastha Sharma,  ["**VoxENES 2026: Benchmarking Generalization of Speech Spoofing Detectors Against LLM-Era TTS and Voice Conversion**"](https://arxiv.org/pdf/2607.11706) has been accepted by [Interspeech 2026](https://interspeech2026.org/en-AU).
+- [06/03/2026] Our paper ["**Learning to Evade: Adaptive Attacks on Audio Watermarking**"](https://arxiv.org/pdf/2606.22310) has been accepted by the Annual Conference of the International Speech Communication Association ([Interspeech 2026](https://interspeech2026.org/en-AU)).
+- [04/29/2026] Our lab received \$10,000 funding from the NSF CISE REU Student Funding Program in CRA to support US citizen undergraduate research participation.
+- [04/23/2026] Guangjing is invited to give a guest lecture on the topic of the security of computer vision systems in the course CS6406 at the Missouri S&T.
+- [04/20/2026] Guangjing is invited to join an NSF Panel.
+- [04/10/2026] Our paper ["**Optical Lens Attack on Monocular Depth Estimation for Autonomous Driving**"](https://dl.acm.org/doi/full/10.1145/3812541) has been accepted by ACM Transactions on Cyber-Physical Systems ([ACM TCPS](https://dl.acm.org/journal/tcps)).
+- [04/06/2026] Our work, led by PhD student Kai Wei, ["**A Multi-Agent Framework for High-Interaction Terminal Simulation**"](https://aclanthology.org/2026.acl-long.1515.pdf) has been accepted by the Main Conference of [ACL 2026](https://2026.aclweb.org/).
+- [04/06/2026] Our work, led by M.S. student Aastha Sharma, ["**A Unified Feature Mixture Framework for Joint Speech and Singing Deepfake Detection**"](https://aclanthology.org/2026.findings-acl.1245.pdf) has been accepted by Findings of [ACL 2026](https://2026.aclweb.org/).
+- [04/03/2026] Guangjing is invited to serve on the program committee at the IEEE International Conference on Computer Communications [(IEEE INFOCOM 2027)](https://infocom2027.ieee-infocom.org/).
+- [04/01/2026] Guangjing agreed to serve as the reviewer for the Fortieth Annual Conference on Neural Information Processing Systems after NeurIPS fixed their issue [(NeurIPS 2026)](https://neurips.cc/).
+- [02/22/2026] Our work, led by PhD student Alabi Mehzabin Anisha, ["**Generative Adversarial Perturbations with Cross-paradigm Transferability on Localized Crowd Counting**"](https://arxiv.org/abs/2603.24821) has been accepted by [CVPR 2026](https://cvpr.thecvf.com/). 
+- [02/03/2026] Our preliminary work, led by the fourth-year PhD student Yuwen, ["**Towards Model Drift Resistant Website Fingerprinting with Time-Series LLMs**"](https://www.ndss-symposium.org/wp-content/uploads/ndss26-poster-18.pdf), has been accepted to [NDSS 2026](https://www.ndss-symposium.org/ndss2026/submissions/call-for-posters/) Poster Session.
+- [01/29/2026] Guangjing is invited to serve on the Poster/Demo program committee at the 4th USENIX Symposium on Vehicle Security and Privacy [(VehicleSec 2026)](https://www.usenix.org/conference/vehiclesec26).
+- [01/15/2026] Our paper ["**SoilNutri: A Passive Metasurface-Based, Low-Cost System for Soil Moisture and Nitrogen Monitoring**"](https://dl.acm.org/doi/abs/10.1145/3789674) has been accepted by the ACM IMWUT Journal (As Conference [UbiComp 2026](https://www.ubicomp.org/ubicomp-iswc-2026/)).
+- [01/05/2026] Guangjing is invited to serve as the Web Chair at the 4th EAI International Conference on Security and Privacy in Cyber-Physical Systems and Smart Vehicles [(SmartSP 2026)](https://smartsp.eai-conferences.org/2026/). Welcome Submission!
+- [12/18/2025] Guangjing is invited to serve on the program committee at the International Conference on Machine Learning [(ICML 2026)](https://icml.cc/Conferences/2026/).
+- [12/10/2025] Guangjing is invited to serve on the program committee at the International Joint Conference on Artificial Intelligence [(IJCAI 2026)](https://2026.ijcai.org/).
+- [10/22/2025] Our survey, led by the fourth-year PhD student Yuwen, ["**A Comprehensive Survey of Website Fingerprinting Attacks and Defenses in Tor: Advances and Open Challenges**"](https://arxiv.org/pdf/2510.11804), has been publicly released on ArXiv. Look forward to your feedback and thoughts!
+- [09/03/2025] Guangjing is invited to serve on the program committee at the International Conference on Learning Representations [(ICLR 2026)](https://iclr.cc/Conferences/2026).
+- [08/22/2025] Guangjing is invited to serve on the program committee at the International Conference on Artificial Intelligence and Statistics [(AISTATS 2026)](https://virtual.aistats.org/).
+- [08/12/2025] Our preliminary work, led by the first-year PhD student Kai, ["**Agentic Shell Honeypot Using Structured Logging**"](https://dl.acm.org/doi/abs/10.1145/3719027.3760731), has been accepted to [ACM CCS 2025](https://www.sigsac.org/ccs/CCS2025/) Poster Session. Stay tuned!
+- [07/22/2025] Guangjing is invited to serve on the program committee at the IEEE International Conference on Parallel and Distributed Systems [(IEEE ICPADS 2025)](http://ieee-icpads.org.cn/).
+- [07/10/2025] Guangjing is invited to serve on the program committee at the IEEE International Conference on Dependable and Secure Computing [(IEEE DSC 2025)](https://attend.ieee.org/dsc-2025/).
+- [06/03/2025] Guangjing is invited to serve on the program committee at the IEEE International Conference on Computer Communications [(IEEE INFOCOM 2026)](https://infocom2026.ieee-infocom.org/group/81).
+- [04/22/2025] Guangjing is invited to serve on the program committee at the European Conference on Artificial Intelligence [(ECAI 2025)](https://ecai2025.org/).
+- [04/22/2025] Our paper ["**ClearMask: Noise-Free and Naturalness-Preserving Protection Against Voice Deepfake Attacks**"](https://dl.acm.org/doi/full/10.1145/3708821.3733881) has been accepted by the ACM ASIA Conference on Computer and Communications Security [(ACM AsiaCCS 2025)](https://asiaccs2025.hust.edu.vn/).
+- [04/18/2025] Guangjing is invited to serve on the program committee at the IEEE International Conference on Trust, Privacy and Security in Intelligent Systems, and Applications [(IEEE TPS 2025)](https://www.sis.pitt.edu/lersais/conference/tps/2025/).
+- [04/15/2025] Guangjing is invited to serve as a meta reviewer at the IEEE International Conference on Advanced Visual and Signal-Based Systems [(IEEE AVSS 2025)](https://sites.google.com/view/avss2025-tw).
+- [02/17/2025] Guangjing is invited to serve on the program committee at the Annual Conference on Neural Information Processing Systems [(NeurIPS 2025)](https://neurips.cc/).
+- [01/13/2025] Guangjing is invited to serve on the program committee at the International Joint Conferences on Artificial Intelligence [(IJCAI 2025)](https://2025.ijcai.org/).
+- [12/18/2024] Guangjing is invited to serve on the program committee at the International Joint Conference on Neural Networks [(IJCNN 2025)](https://2025.ijcnn.org/).
+- [12/16/2024] Guangjing is invited to serve on the program committee at the USENIX Symposium on Vehicle Security and Privacy [(VehicleSec 2025)](https://www.usenix.org/conference/vehiclesec25).
+- [12/11/2024] Guangjing is invited to serve on the program committee at the International Conference on Machine Learning [(ICML 2025)](https://icml.cc/).
+- [09/02/2024] Our paper ["**Optical Lens Attacks on Deep Learning Based Monocular Depth Estimation**"](https://link.springer.com/chapter/10.1007/978-3-031-94445-1_12) has been accepted by the 20th International Conference on Security and Privacy in Communication Networks [(EAI SecureComm 2024)](https://securecomm.eai-conferences.org/2024/).
+- [08/27/2024] Our paper ["**Joint Client-and-Sample Selection for Federated Learning via Bi-level Optimization**"](https://ieeexplore.ieee.org/document/10668811) has been accepted by IEEE Transactions on Mobile Computing [(IEEE TMC)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7755).
+- [08/23/2024] Guangjing is invited to serve on the program committee at the International Conference on Learning Representations [(ICLR 2025)](https://iclr.cc/Conferences/2025).
+- [08/22/2024] Guangjing is invited to serve on the program committee at the Artifact Evaluation of the International Conference on Management of Data [(SIGMOD 2024)](https://2024.sigmod.org/).
+- [08/20/2024] Guangjing is invited to serve on the program committee at the IEEE International Conference on Acoustics, Speech, and Signal Processing [(ICASSP 2025)](https://2025.ieeeicassp.org/).
+- [08/20/2024] Guangjing is invited to serve on the technical program committee at the IEEE Consumer Communications and Networking Conference [(CNCC 2025)](https://ccnc2025.ieee-ccnc.org/).
+
+{% comment %}
+- [08/10/2024] Our paper "**Protecting Activity Sensing Data Privacy Using Hierarchical Information Dissociation**" has been accepted by the IEEE Conference on Communications and Network Security [(IEEE CNS 2024)](https://cns2024.ieee-cns.org/).
+- [06/22/2024] Guangjing is invited to serve on the program committee at the Artifact Evaluation of the Network and Distributed System Security Symposium [(NDSS 2025)](https://www.ndss-symposium.org/ndss2025/).
+- [06/13/2024] Our paper "**WavePurifier: Purifying Audio Adversarial Examples via Hierarchical Diffusion Models**" has been accepted by the International Conference on Mobile Computing and Networking [(ACM MobiCom 2024)](https://www.sigmobile.org/mobicom/2024/).
+- [06/11/2024] Guangjing is invited to serve on the program committee at the Annual Conference on Neural Information Processing Systems [(NeurIPS 2024)](https://neurips.cc/).
+- [05/13/2024] Guangjing has successfully defended his PhD dissertation "[Data-Centric AI for Interaction Security and Privacy in the Internet-of-Things](https://www.proquest.com/openview/01e768d32f42571541fd5a5777bed3b1)". Thank you, my guidance committee and friends!
+- [04/09/2024] Guangjing is invited to serve on the program committee at the Artifact Evaluation of the ACM Conference on Computer and Communications Security [(CCS 2024)](https://www.sigsac.org/ccs/CCS2024/call-for/call-for-artifacts.html).
+- [03/08/2024] Our paper "**Towards Low-cost Soil Macronutrients and Moisture Monitoring Using RF-VNIR Sensing**" has been accepted by the International Conference on Mobile Systems, Applications, and Services [(ACM MobiSys 2024)](https://www.sigmobile.org/mobisys/2024/). 
+{% endcomment %}
+
+<!-- ### PhD Program Opportunities
+>
+Dr. Wang is looking for **self-motivated** students with a strong interest in one of the areas *[AI, security, privacy, mobile and IoT systems]*. Qualified candidates will be supported with full assistantships during the CS PhD program at the University of South Florida. Undergraduates are also warmly welcome to work with Guangjing to gain research experience.
+>
+If this opportunity aligns with your research interests, please email [Guangjing](mailto:guangjingwang@usf.edu?subject=[PhD Application]) your resume and any supplementary materials that showcase your academic background and research experience.  -->
+<a href="https://mapmyvisitors.com/web/1c66d"  title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?d=GOiwEfbKX08lS4hfqIwhCfqEFgzE6uJfNVqjhdyqpao&cl=ffffff" style="display: none;"/></a>
