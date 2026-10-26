@@ -1,0 +1,85 @@
+// Keep the teaching page's shared panels, colors, and typography.
+.research-page-layout {
+    > header .wrapper,
+    > .site-footer .wrapper {
+        max-width: 95%;
+    }
+}
+
+.page.research-page {
+    max-width: 95%;
+
+    // Scholar link and freshness stamp above the publication list. Wraps to
+    // two lines on narrow screens rather than squeezing the date.
+    .research-meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px 20px;
+        align-items: baseline;
+        justify-content: space-between;
+        margin: 0 0 24px;
+        font-size: 15px;
+
+        .fa { margin-right: 7px; }
+
+        .research-updated {
+            color: #888;
+            font-size: 14px;
+        }
+    }
+
+    .research-direction {
+        margin-bottom: 30px;
+        scroll-margin-top: 20px;
+
+        h2 {
+            font-size: 22px;
+            border-bottom: 0;
+        }
+    }
+
+    .left .publication-list {
+        padding-left: 25px;
+
+        .publication {
+            margin: 0 0 20px;
+            scroll-margin-top: 20px;
+
+            p { margin: 0; }
+        }
+
+        .publication-title a {
+            font-weight: bold;
+            word-break: normal;
+            overflow-wrap: anywhere;
+        }
+    }
+
+    .right .content-ul li {
+        margin: 8px 0;
+
+        a {
+            word-break: normal;
+            hyphens: none;
+        }
+    }
+
+    a:focus-visible,
+    .anchor:focus-visible {
+        outline: 2px solid #4d6dad;
+        outline-offset: 3px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .research-page-layout > header small { display: none; }
+}
+
+@media print {
+    .research-page {
+        .right,
+        .anchor { display: none; }
+        .left { width: 100%; box-shadow: none; }
+        .publication { break-inside: avoid; }
+    }
+}

@@ -1,0 +1,66 @@
+# Builds this Jekyll site and publishes it to GitHub Pages.
+#
+# Requires the repository's Pages build source to be "GitHub Actions"
+# (Settings -> Pages -> Build and deployment -> Source). With the legacy
+# "Deploy from a branch" source this workflow's deploy step will fail.
+name: Deploy Jekyll site to Pages
+
+on:
+  push:
+    branches: [main]
+  # Lets you re-publish by hand from the Actions tab without a new commit.
+  workflow_dispatch:
+
+# The deploy job needs these to request an OIDC token and publish a deployment.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One deployment at a time; let an in-flight publish finish rather than
+# cancelling it, so the live site is never left half-updated.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # Ruby 3.4 matches the version this site is developed against; the
+      # gems themselves are pinned by Gemfile.lock (Jekyll 4.4.1).
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.4'
+          bundler-cache: true # runs 'bundle install' and caches the gems
+          cache-version: 0    # bump to force a fresh gem download
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      # base_path is empty for the custom domain in CNAME; it is passed through
+      # so the build stays correct if the site ever moves to a subpath.
+      - name: Build with Jekyll
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: production
+
+      # Uploads ./_site by default.
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

@@ -1,0 +1,46 @@
+---
+layout: null
+permalink: /llms.txt
+sitemap: false
+---
+{%- comment -%}
+llms.txt is a convention for telling language models what a site contains and
+where its machine-readable data lives, so an agent fetches one short file
+instead of scraping several pages of markup.
+
+Generated from the same data as the rest of the site: the publication count,
+the research directions and the profile links all stay in sync automatically.
+{%- endcomment -%}
+{%- assign author = site.author -%}
+# {{ author.name }}
+
+> {{ author.job_title }} in the {{ author.affiliation_department }} at the {{ author.affiliation }}. Research on agentic AI, security and privacy of AI systems, mobile sensing, and data management.
+
+{{ author.name }} leads the Reliable Agentic Intelligence and Secure Ecosystems (RAISE) Lab. Work appears at CVPR, ACL, SIGMOD, ICDE, MobiCom, MobiSys, UbiComp, CCS, NDSS and similar venues.
+
+To cite this work, use the BibTeX file below rather than transcribing citations from the HTML: it is generated from the site's structured publication data and contains DOIs where available.
+
+## Publications
+
+- [BibTeX for all publications]({{ '/publications.bib' | absolute_url }}): machine-readable citations for all {{ site.data.publications.size }} listed publications, with DOIs where available
+- [Publication list]({{ '/research/' | absolute_url }}): the same {{ site.data.publications.size }} publications as HTML, grouped by research direction, with JSON-LD ScholarlyArticle metadata embedded
+- [Google Scholar]({{ author.google_scholar }}): complete and continuously updated list, including preprints and citation counts
+{%- if author.orcid.size > 0 %}
+{%- assign orcid_url = author.orcid -%}
+{%- unless orcid_url contains '://' -%}{%- assign orcid_url = orcid_url | prepend: 'https://orcid.org/' -%}{%- endunless %}
+- [ORCID]({{ orcid_url }}): persistent author identifier, authoritative for disambiguating this author from others with a similar name
+{%- endif %}
+
+## Research directions
+{% for direction in site.data.research_directions %}
+- {{ direction.title }}: {{ direction.description }}
+{%- endfor %}
+
+## Pages
+
+- [Home]({{ '/' | absolute_url }}): biography and reverse-chronological news
+- [Teaching]({{ '/teaching/' | absolute_url }}): courses taught
+- [Advisees]({{ '/advisees/' | absolute_url }}): current students and advisory committees
+- [Services]({{ '/services/' | absolute_url }}): program committees and reviewing
+- [Blog]({{ '/blog/' | absolute_url }}): technical notes, unrelated to the publication record
+- [Sitemap]({{ '/sitemap.xml' | absolute_url }}): every indexable URL

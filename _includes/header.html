@@ -1,0 +1,61 @@
+<header id="top">
+    <div class="wrapper">
+        <a href="{{ '/' | relative_url }}" class="brand">{{ site.title }}</a>
+        <small>{{site.brief-intro}}</small>
+        <button id="headerMenu" class="menu" type="button" aria-label="Navigation menu" aria-controls="headerNav" aria-expanded="false"><i class="fa fa-bars" aria-hidden="true"></i></button>
+        <nav id="headerNav" aria-label="Main navigation">
+            <ul>
+                <li>
+                    {% if page.url == '/' %}
+                    <a class="active" href="{{ '/' | relative_url }}">
+                        {% else %}
+                    <a href="{{ '/' | relative_url }}">
+                    {% endif %}
+                        <i class="fa fa-home"></i>Home
+                    </a>
+                </li>
+                {% comment %}
+                A page appears here when it has a title and does not opt out
+                with `nav_exclude: true`. The home link above already covers
+                '/', so that is skipped too. Sorting by path keeps the numeric
+                filename prefixes (2teaching, 3services, ...) as the nav order.
+
+                Pages opt out in their own front matter rather than being
+                matched by title here: renaming a page should not silently put
+                it back in the nav.
+
+                jekyll-paginate clones the blog index once per page of results,
+                and every clone carries the same title, so without the
+                paginate_prefix test the nav lists "Blogs" seven times. Split
+                on ':num' and take what precedes it: '/blog/page:num/' yields
+                '/blog/page', which matches '/blog/page2/' but not '/blog/'.
+                Replacing ':num' with '' instead would leave '/blog/page/',
+                whose trailing slash matches nothing. The size guard matters:
+                with paginate_path unset the prefix would be '' and
+                `contains ''` would drop every nav entry.
+                {% endcomment %}
+                {% assign paginate_prefix = site.paginate_path | default: '' | split: ':num' | first %}
+                {% assign nav_pages = site.pages | sort: 'path' %}
+                {% for my_page in nav_pages %}
+                    {% assign is_paginated_clone = false %}
+                    {% if paginate_prefix.size > 0 and my_page.url contains paginate_prefix %}
+                        {% assign is_paginated_clone = true %}
+                    {% endif %}
+                    {% if my_page.title and my_page.url != '/' and is_paginated_clone == false %}
+                        {% unless my_page.nav_exclude %}
+                        <li>
+                            {% if my_page.url == page.url %}
+                            <a class="active" href="{{ my_page.url | relative_url }}">
+                            {% else %}
+                            <a href="{{ my_page.url | relative_url }}">
+                            {% endif %}
+                                <i class="fa fa-{{my_page.icon}}"></i>{{ my_page.title }}
+                            </a>
+                        </li>
+                        {% endunless %}
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </nav>
+    </div>
+</header>

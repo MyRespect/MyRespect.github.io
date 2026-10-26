@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body{% if page.body_class %} class="{{ page.body_class | escape }}"{% endif %}>
+
+    {% include header.html %}
+
+        {{ content }}
+
+    {% include footer.html %}
+    {% include backToTop.html %}
+    <script defer src="{{ "/js/main.js" | relative_url }}" charset="utf-8"></script>
+    <script defer src="{{ "/js/scroll.min.js" | relative_url }}" charset="utf-8"></script>
+  </body>
+
+</html>

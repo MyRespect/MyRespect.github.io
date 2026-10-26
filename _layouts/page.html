@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+
+<!-- this page is corresponding to the 'about' page -->
+
+<div class="page clearfix{% if page.page_class %} {{ page.page_class | escape }}{% endif %}" post>
+    <div class="left">
+        {% comment %}
+        hide_title keeps the page out of the nav's way: the title still names
+        the page in the nav and the <title> tag, but the heading is removed
+        from view. It stays in the markup for screen readers and search
+        engines, which expect every page to have one h1.
+        {% endcomment %}
+        <h1{% if page.hide_title %} class="visually-hidden"{% endif %}>{{page.title}}</h1>
+        {% unless page.hide_title %}<hr>{% endunless %}
+        {{content}}
+    </div>
+    <button class="anchor" type="button" aria-label="{% if page.sidebar == 'research' %}Research directions{% else %}Page contents{% endif %}" aria-controls="pageSidebar" aria-expanded="false"><i class="fa fa-anchor" aria-hidden="true"></i></button>
+    <div class="right" id="pageSidebar">
+        <div class="wrap">
+            <div id="img-content-side" class="side content sidebar-portrait">
+                <img src="{{ '/assets/images/portrait-320.webp' | relative_url }}"
+                     srcset="{{ '/assets/images/portrait-160.webp' | relative_url }} 160w, {{ '/assets/images/portrait-320.webp' | relative_url }} 320w, {{ '/assets/images/portrait-640.webp' | relative_url }} 640w"
+                     sizes="(max-width: 770px) 34.2vw, (max-width: 1200px) calc(8.1vw - 7.2px), 109px"
+                     alt="Guangjing Wang" width="320" height="320" decoding="async" draggable="false">
+            </div>
+
+            <div class="side content">
+                <div class="sidebar-name">
+                    Dr. Guangjing Wang (He/him)
+                </div>
+                {% if page.sidebar == 'research' %}
+                <nav aria-label="Research directions">
+                    <ul id="content-side" class="content-ul">
+                        {% for direction in site.data.research_directions %}
+                        <li><a href="#{{ direction.id }}" title="{{ direction.title | escape }}" aria-label="{{ direction.title | escape }}">{{ direction.nav_title | default: direction.title | escape }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </nav>
+                {% else %}
+                <ul id="content-side" class="content-ul">
+                </ul>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+<script defer src="{{ "/js/pageContent.js" | relative_url }}" charset="utf-8"></script>

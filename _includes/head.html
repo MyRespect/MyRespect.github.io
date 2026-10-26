@@ -1,0 +1,39 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{% if page.title and page.title != site.title %}{{ page.title | escape }} &middot; {{ site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+    {% assign page_description = page.description | default: page.excerpt | default: site.description %}
+    <meta name="description" content="{{ page_description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+
+    <link rel="shortcut icon" href="{{ '/favicon.ico' | relative_url }}" type="image/x-icon">
+    <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ '/css/fontawesome/css/font-awesome.min.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/css/main.css' | relative_url }}">
+    <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | absolute_url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ '/feed.xml' | absolute_url }}">
+    <meta name="author" content="{{ site.author.name | default: site.title | escape }}">
+    {% if page.sidebar == 'research' %}
+    {% comment %}
+    Advertise the citation file from the page it describes, so a crawler or an
+    agent finds it from the markup instead of having to guess the URL.
+    {% endcomment %}
+    <link rel="alternate" type="application/x-bibtex" href="{{ '/publications.bib' | relative_url }}" title="Publications (BibTeX)">
+    {% endif %}
+
+    {% include structured-data.html %}
+
+{% if site.baidu_tongji_id %}
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?{{site.baidu_tongji_id}}";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+{% endif %}
+</head>
+
