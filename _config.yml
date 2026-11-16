@@ -1,0 +1,65 @@
+# Welcome to Jekyll!
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll server'. If you change this file, please restart the server process.
+
+# Site settings
+title: Guangjing Wang
+brief-intro: Assistant Professor @ USF
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://guangjing.wang" # the base hostname & protocol for your site
+description: "Guangjing Wang is an Assistant Professor at USF researching agentic AI, secure and trustworthy AI, mobile sensing, and data management."
+
+permalink: /:year/:month/:day/:title/
+
+github_username: myRespect
+email: guangjingwang@usf.edu
+linkedIn_username: guangjingwang
+description_footer: Gratitude and Positive Thinking! 
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# url
+category_dir: category/
+tag_dir: tag/
+
+# excerpt
+excerpt_separator: "\n\n\n\n"
+
+# paginate
+paginate_path: "/blog/page:num/"
+paginate: 5
+
+plugins:
+  - jekyll-redirect-from
+  - jekyll-paginate
+  - jekyll-sitemap
+
+# Keep repo-only files out of the published site.
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Feeds the Person structured data in _includes/structured-data.html, which is
+# how search engines tie this site to the right Guangjing Wang. Add orcid once
+# you have the iD; an empty value is simply left out of the markup.
+author:
+  name: "Guangjing Wang"
+  job_title: "Assistant Professor"
+  image: "/assets/images/portrait-640.webp"
+  affiliation: "University of South Florida"
+  affiliation_url: "https://www.usf.edu/ai-cybersecurity-computing/index.aspx"
+  affiliation_department: "Bellini College of Artificial Intelligence, Cybersecurity and Computing"
+  google_scholar: "https://scholar.google.com/citations?user=HizrFb4AAAAJ"
+  orcid: "https://orcid.org/0000-0002-9353-9042"
+  alumni_of:
+    - "Michigan State University"
+    - "University of Science and Technology of China"
+    - "Southwest University"

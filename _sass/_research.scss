@@ -1,0 +1,102 @@
+// Research-page specifics. Page, header and footer widths are shared with
+// every other page (see _page.scss), so none are overridden here.
+.page.research-page {
+    // Scholar link and freshness stamp above the publication list. Wraps to
+    // two lines on narrow screens rather than squeezing the date.
+    .research-meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px 20px;
+        align-items: baseline;
+        justify-content: space-between;
+        margin: 0 0 24px;
+        font-size: 15px;
+
+        .fa { margin-right: 7px; }
+
+        .research-updated {
+            color: $muted;
+            font-size: 14px;
+        }
+    }
+
+    .research-direction {
+        margin-bottom: 30px;
+        // Clear the sticky header when jumping here from the sidebar.
+        scroll-margin-top: $header-h + 20px;
+
+        // Shared with the Advisees page; see _mixins.scss.
+        h2 {
+            @include section-title;
+        }
+    }
+
+    .left .publication-list {
+        padding-left: 25px;
+
+        .publication {
+            margin: 0 0 20px;
+            scroll-margin-top: 20px;
+
+            p { margin: 0; }
+        }
+
+        .publication-title a {
+            font-weight: bold;
+            word-break: normal;
+            overflow-wrap: anywhere;
+        }
+    }
+
+    // One line per direction: smaller text and a tighter indent. Between
+    // 770px and 1200px the sidebar narrows, so the text shrinks a little
+    // more and a name that still does not fit wraps rather than being cut.
+    .right .content-ul {
+        padding-left: 22px;
+        padding-right: 12px;
+        font-size: 13.5px;
+    }
+
+    .right .content-ul li {
+        margin: 6px 0;
+        white-space: nowrap;
+
+        a {
+            word-break: normal;
+            hyphens: none;
+        }
+    }
+
+    a:focus-visible,
+    .anchor:focus-visible {
+        outline: 2px solid $brand;
+        outline-offset: 3px;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 771px) {
+    .page.research-page .right {
+        .content-ul {
+            padding-left: 18px;
+            padding-right: 8px;
+            font-size: 12.5px;
+        }
+        .content-ul li {
+            white-space: normal;
+            line-height: 1.45;
+        }
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .research-page-layout > header small { display: none; }
+}
+
+@media print {
+    .research-page {
+        .right,
+        .anchor { display: none; }
+        .left { width: 100%; box-shadow: none; }
+        .publication { break-inside: avoid; }
+    }
+}

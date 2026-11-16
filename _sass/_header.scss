@@ -1,0 +1,233 @@
+// Sticky, translucent brand bar. The active page is marked by a gold
+// underline instead of a background block, so it stays visible against
+// the bar's own color.
+header {
+    position: sticky;
+    top: 0;
+    z-index: 200;
+    height: $header-h;
+    margin-bottom: 28px;
+    color: #fff;
+    background: rgba($brand, 0.92);
+    -webkit-backdrop-filter: saturate(160%) blur(12px);
+    backdrop-filter: saturate(160%) blur(12px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 6px 24px rgba(0, 40, 25, 0.18);
+
+    a {
+        color: #fff;
+        transition: color 0.2s ease, background-color 0.2s ease;
+    }
+
+    .wrapper {
+        max-width: $max-width;
+        margin: 0 auto;
+        padding: 0 24px;
+        line-height: $header-h;
+        display: flex;
+        align-items: center;
+
+        .brand {
+            font-family: $font-serif;
+            font-size: 24px;
+            font-weight: 600;
+            letter-spacing: -0.01em;
+            white-space: nowrap;
+            &:hover {
+                color: $accent;
+            }
+        }
+        small {
+            margin-left: 14px;
+            padding-left: 14px;
+            border-left: 1px solid rgba(255, 255, 255, 0.45);
+            font-size: 14.5px;
+            font-weight: 500;
+            line-height: 1.4;
+            letter-spacing: 0.01em;
+            color: #fff;
+            white-space: nowrap;
+        }
+        .menu {
+            display: none;
+        }
+        .menu:focus-visible {
+            outline: 2px solid $accent;
+            outline-offset: 3px;
+        }
+        nav {
+            margin-left: auto;
+            ul {
+                font-size: 0;
+                margin: 0;
+                padding: 0;
+                li {
+                    list-style: none;
+                    font-size: 15px;
+                    font-weight: 500;
+                    display: inline-block;
+                    a {
+                        position: relative;
+                        display: inline-block;
+                        padding: 0 12px;
+                        height: $header-h;
+                        color: rgba(255, 255, 255, 0.85);
+                        i {
+                            margin-right: 6px;
+                            opacity: 0.8;
+                        }
+                        &::after {
+                            content: "";
+                            position: absolute;
+                            left: 12px;
+                            right: 12px;
+                            bottom: 12px;
+                            height: 2px;
+                            border-radius: 2px;
+                            background: $accent;
+                            transform: scaleX(0);
+                            transform-origin: left;
+                            transition: transform 0.25s ease;
+                        }
+                        &:hover {
+                            color: #fff;
+                            &::after {
+                                transform: scaleX(1);
+                            }
+                        }
+                        &:focus-visible {
+                            outline: 2px solid $accent;
+                            outline-offset: -6px;
+                        }
+                    }
+                    > .active {
+                        color: #fff;
+                        &::after {
+                            transform: scaleX(1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 770px) {
+    header {
+        .wrapper {
+            .brand {
+                font-size: 20px;
+            }
+            small {
+                font-size: 12px;
+                margin-left: 10px;
+                padding-left: 10px;
+            }
+            nav ul li {
+                font-size: 14px;
+                a {
+                    padding: 0 8px;
+                    &::after {
+                        left: 8px;
+                        right: 8px;
+                    }
+                    i {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 770px) {
+    header {
+        height: 52px;
+        margin-bottom: 16px;
+        .wrapper {
+            position: relative;
+            padding: 0 14px;
+            line-height: 52px;
+            .brand {
+                font-size: 19px;
+            }
+            small {
+                font-size: 12px;
+                margin-left: 10px;
+                padding-left: 10px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            .menu {
+                display: inline-block;
+                margin-left: auto;
+                padding: 6px 11px;
+                line-height: 1;
+                background: rgba(255, 255, 255, 0.12);
+                border: 1px solid rgba(255, 255, 255, 0.2);
+                border-radius: 8px;
+                color: #fff;
+                font-size: 17px;
+                cursor: pointer;
+                transition: background-color 0.2s ease;
+                &.active {
+                    background: rgba(255, 255, 255, 0.25);
+                }
+            }
+            .nav-show {
+                visibility: visible;
+                transform: scale(1);
+                opacity: 1;
+            }
+            nav {
+                position: absolute;
+                z-index: 100;
+                right: 14px;
+                top: 50px;
+                min-width: 190px;
+                margin-left: 0;
+                text-align: left;
+                visibility: hidden;
+                transform-origin: 100% 0%;
+                transform: scale(0.9);
+                opacity: 0;
+                transition: 0.18s ease;
+                ul {
+                    padding: 6px;
+                    background: $surface;
+                    border-radius: 12px;
+                    box-shadow: $shadow-pop;
+                    li {
+                        display: block;
+                        font-size: 15px;
+                        a {
+                            display: block;
+                            height: 42px;
+                            line-height: 42px;
+                            padding: 0 12px;
+                            border-radius: 8px;
+                            color: $ink;
+                            i {
+                                display: inline-block;
+                                width: 18px;
+                                color: $brand;
+                            }
+                            &::after {
+                                display: none;
+                            }
+                            &:hover {
+                                color: $ink;
+                                background: rgba($brand, 0.07);
+                            }
+                        }
+                        > .active {
+                            color: $brand;
+                            font-weight: 600;
+                            background: rgba($brand, 0.1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,63 @@
+# Students in other labs for whom Guangjing serves on the advisory committee.
+# Shown as cards on the Advisees page, under "Advisory committee member for".
+# Kept apart from lab_students.yml so they are not marked as RAISE Lab
+# students on the Research page.
+#
+# role:     phd | ms
+# linkedin: optional profile URL
+# note:     short line under the name (advisor, graduation)
+
+# PhD students
+- name: Mahammed Kamruzzaman
+  role: phd
+  linkedin: https://www.linkedin.com/in/mahammed-kamruzzaman-b59748186/
+  note: "Advisor: Dr. Gene Louis Kim"
+
+- name: Yucheng Zhao
+  role: phd
+  note: "Advisor: Dr. Henian Chen"
+
+- name: Zhengyuan Jiang
+  role: phd
+  linkedin: https://www.linkedin.com/in/zhengyuanjiang/
+  note: "Advisor: Dr. Ning Wang"
+
+- name: Chi Zhang
+  role: phd
+  linkedin: https://www.linkedin.com/in/chi-zhang-6a092b1aa/
+  note: "Prev-Advisor: Dr. Yao Liu"
+
+- name: Xiaowen Li
+  role: phd
+  linkedin: https://www.linkedin.com/in/xiaowen-lee-li/
+  note: "Prev-Advisor: Dr. Yao Liu; Graduated"
+
+- name: Jiahao Xue
+  role: phd
+  linkedin: https://www.linkedin.com/in/jiahao-xue-a78324203/
+  note: "Advisor: Dr. Zhuo Lu; Graduated"
+
+- name: Xiaoran Xu
+  role: phd
+  linkedin: https://www.linkedin.com/in/xiaoran-xu-38ba07168/
+  note: "Advisor: Dr. Ravi Sankar; Graduated"
+
+# Master's students
+- name: Sudharshan Balaji
+  role: ms
+  linkedin: https://www.linkedin.com/in/sudharshanbalaji/
+  note: "Advisor: Dr. Ning Wang; Graduated"
+
+- name: Zhenyi Chen
+  role: ms
+  note: "Advisor: Dr. Yicheng Tu; Graduated"
+
+- name: Nitesh Vamshi Bommisetty
+  role: ms
+  linkedin: https://www.linkedin.com/in/nitesh-vamshi-87723016b/
+  note: "Advisor: Dr. Gene Kim; Graduated"
+
+- name: Hieu Nguyen
+  role: ms
+  linkedin: https://www.linkedin.com/in/hieunguyen65/
+  note: "Advisor: Dr. Gene Kim; Graduated"

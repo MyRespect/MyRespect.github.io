@@ -1,0 +1,441 @@
+// Home-page hero (_includes/hero.html), news timeline (js/news.js) and
+// Research-page publication badges (_includes/publication.html).
+
+/* ---------- Home layout ---------- */
+// The home page has no sidebar: one card spanning the same total width as
+// the content card plus sidebar on the other pages.
+.page.page-hero {
+    max-width: 1200px;
+    .left {
+        float: none;
+        width: 100%;
+    }
+}
+
+/* ---------- Hero ---------- */
+.page .left .hero {
+    position: relative;
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 14px 28px;
+    align-items: center;
+    margin: 4px -24px 26px;
+    padding: 22px 30px 20px;
+    border-radius: $radius;
+    overflow: hidden;
+    background:
+        radial-gradient(120% 140% at 100% 0%, rgba($accent, 0.35), transparent 55%),
+        linear-gradient(135deg, rgba($brand, 0.07), rgba($brand, 0.02));
+    border: 1px solid rgba($brand, 0.1);
+
+    p { margin: 0; }
+
+    .hero-portrait img {
+        display: block;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 4px solid $surface;
+        box-shadow: 0 0 0 2px $accent, 0 14px 30px rgba(0, 40, 25, 0.22);
+        -webkit-user-select: none;
+        user-select: none;
+        -webkit-touch-callout: none;
+    }
+
+    .hero-name {
+        font-family: $font-serif;
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 1.1;
+        letter-spacing: -0.02em;
+        color: $ink;
+    }
+    .hero-role {
+        margin-top: 6px;
+        font-size: 15.5px;
+        line-height: 1.45;
+        color: $ink-soft;
+    }
+    .hero-lab {
+        margin-top: 4px;
+        font-size: 15px;
+        color: $muted;
+        a { font-weight: 600; }
+    }
+
+    .hero-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin: 12px 0 0;
+        padding: 0;
+        list-style: none;
+        li { margin: 0; line-height: 1; color: inherit; }
+        a {
+            display: inline-flex;
+            align-items: center;
+            gap: 7px;
+            padding: 6px 13px;
+            font-size: 14px;
+            font-weight: 500;
+            color: $brand;
+            text-decoration: none;
+            background: $surface;
+            border: 1px solid rgba($brand, 0.18);
+            border-radius: 999px;
+            transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+            i { margin: 0; }
+            .orcid-mark {
+                display: inline-block;
+                width: 15px;
+                height: 15px;
+                font: 700 8.5px/15px $font-sans;
+                text-align: center;
+                color: #fff;
+                background: #a6ce39;   // ORCID brand green
+                border-radius: 50%;
+            }
+            &:hover {
+                color: #fff;
+                background: $brand;
+                border-color: $brand;
+                transform: translateY(-1px);
+                box-shadow: 0 6px 14px rgba($brand, 0.25);
+            }
+        }
+    }
+
+    .hero-focus {
+        grid-column: 1 / -1;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 12px;
+        margin: 2px 0 0;
+        padding: 0;
+        list-style: none;
+        li {
+            display: flex;
+            gap: 12px;
+            align-items: flex-start;
+            margin: 0;
+            padding: 11px 14px;
+            line-height: 1.4;
+            font-size: 13.5px;
+            color: $ink-soft;
+            background: rgba(255, 255, 255, 0.75);
+            border: 1px solid $line;
+            border-radius: 12px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            &:hover {
+                transform: translateY(-2px);
+                box-shadow: $shadow-card;
+            }
+            i {
+                flex: none;
+                width: 30px;
+                height: 30px;
+                margin: 0;
+                line-height: 30px;
+                text-align: center;
+                font-size: 16px;
+                color: $brand;
+                background: rgba($accent, 0.35);
+                border-radius: 10px;
+            }
+            strong {
+                display: block;
+                margin-bottom: 2px;
+                font-size: 14.5px;
+                color: $ink;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .page .left .hero {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        text-align: center;
+        margin: 0 -8px 22px;
+        padding: 18px 16px 14px;
+        .hero-portrait img { width: 96px; height: 96px; }
+        .hero-name { font-size: 28px; }
+        .hero-links { justify-content: center; }
+        .hero-focus {
+            grid-template-columns: 1fr;
+            width: 100%;
+            text-align: left;
+        }
+    }
+}
+
+/* ---------- News timeline ---------- */
+.news-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 4px 0 18px;
+}
+.news-chip {
+    padding: 6px 13px;
+    font: 500 13.5px $font-sans;
+    color: $ink-soft;
+    background: $surface;
+    border: 1px solid rgba($brand, 0.16);
+    border-radius: 999px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    span {
+        margin-left: 3px;
+        font-size: 12px;
+        color: $muted;
+    }
+    &:hover { border-color: $brand; color: $brand; }
+    &.is-active {
+        color: #fff;
+        background: $brand;
+        border-color: $brand;
+        span { color: rgba(255, 255, 255, 0.75); }
+    }
+    &:focus-visible { outline: 2px solid $accent; outline-offset: 2px; }
+}
+
+.page .left ul.news-timeline {
+    position: relative;
+    margin: 0;
+    padding: 0 0 0 26px;
+    list-style: none;
+
+    // the vertical rail
+    &::before {
+        content: "";
+        position: absolute;
+        left: 7px;
+        top: 6px;
+        bottom: 6px;
+        width: 2px;
+        border-radius: 2px;
+        background: linear-gradient($brand, rgba($brand, 0.08));
+    }
+
+    > li.news-item {
+        position: relative;
+        margin: 0 0 2px;
+        padding: 8px 14px 9px;
+        line-height: 1.6;
+        color: $ink;
+        border-radius: 10px;
+        transition: background-color 0.2s ease;
+        &:hover { background: rgba($brand, 0.035); }
+
+        // the dot on the rail
+        &::before {
+            content: "";
+            position: absolute;
+            left: -24px;
+            top: 15px;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: $surface;
+            border: 2px solid var(--news-color);
+            box-shadow: 0 0 0 3px $surface;
+        }
+
+        --news-color: #{$muted};
+        &.news-paper   { --news-color: #{$brand}; }
+        &.news-award   { --news-color: #{$accent-ink}; }
+        &.news-talk    { --news-color: #2f6fb0; }
+        &.news-service { --news-color: #8a8f99; }
+        &.news-paper::before,
+        &.news-award::before { background: var(--news-color); }
+    }
+
+    .news-meta {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 2px;
+        font-size: 13px;
+        color: $muted;
+    }
+    .news-icon {
+        margin: 0;
+        width: 14px;
+        text-align: center;
+        color: var(--news-color);
+    }
+    .news-date {
+        width: auto;
+        font-weight: 500;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: 0.01em;
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+    .news-new {
+        padding: 1px 8px;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: $brand-dark;
+        background: $accent;
+        border-radius: 999px;
+    }
+}
+
+.news-more {
+    display: block;
+    margin: 6px auto 0;
+    padding: 9px 20px;
+    font: 500 14px $font-sans;
+    color: $brand;
+    background: $surface;
+    border: 1px solid rgba($brand, 0.2);
+    border-radius: 999px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    i { margin-left: 6px; }
+    &:hover { color: #fff; background: $brand; }
+    &:focus-visible { outline: 2px solid $accent; outline-offset: 2px; }
+}
+
+/* ---------- Publications ---------- */
+.venue-badge {
+    display: inline-block;
+    margin-right: 8px;
+    padding: 1px 8px;
+    vertical-align: 1px;
+    font-size: 11.5px;
+    font-weight: 600;
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+    color: $brand;
+    background: rgba($brand, 0.08);
+    border: 1px solid rgba($brand, 0.18);
+    border-radius: 6px;
+    &.venue-top {
+        color: $brand-dark;
+        background: rgba($accent, 0.55);
+        border-color: rgba($accent-ink, 0.45);
+    }
+}
+
+.lab-student {
+    text-decoration: underline;
+    text-decoration-color: rgba($accent-ink, 0.55);
+    text-underline-offset: 3px;
+    sup { margin-left: 1px; color: $accent-ink; font-size: 0.7em; }
+}
+
+.page.research-page .left .publication-list {
+    list-style: none;
+    padding-left: 0;
+    .publication {
+        padding: 12px 14px 12px;
+        margin: 0 0 6px -14px;
+        border-radius: 10px;
+        transition: background-color 0.2s ease;
+        &:hover { background: rgba($brand, 0.035); }
+        &:target { background: rgba($accent, 0.25); }
+    }
+}
+
+@media print {
+    .news-filters, .news-more { display: none !important; }
+    .news-timeline li[hidden] { display: block !important; }
+}
+
+/* ---------- Advisees: student cards ---------- */
+.page .left ul.student-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 12px;
+    margin: 6px 0 22px;
+    padding: 0;
+    list-style: none;
+
+    > li.student-card {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin: 0;
+        padding: 12px 14px 12px 16px;
+        min-height: 64px;
+        box-sizing: border-box;
+        line-height: 1.35;
+        background: $surface;
+        border: 1px solid $line;
+        border-radius: 12px;
+        box-shadow: 0 1px 2px rgba(15, 40, 30, 0.04);
+        transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+        &:hover {
+            transform: translateY(-2px);
+            border-color: rgba($brand, 0.25);
+            box-shadow: $shadow-card;
+        }
+    }
+
+    .student-info {
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        flex: 1;
+    }
+    .student-name {
+        font-size: 15.5px;
+        font-weight: 600;
+        color: $ink;
+        a {
+            color: $ink;
+            text-decoration: none;
+            &:hover { color: $brand; }
+        }
+    }
+    .student-note {
+        margin-top: 3px;
+        font-size: 12.5px;
+        color: $muted;
+    }
+    .student-link {
+        flex: none;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        border-radius: 8px;
+        color: $brand;
+        text-decoration: none;
+        background: rgba($brand, 0.07);
+        transition: background-color 0.2s ease, color 0.2s ease;
+        i { margin: 0; }
+        &:hover { color: #fff; background: $brand; }
+    }
+
+    // Alumni: quieter, so current students stay the focus.
+    &.student-grid-alumni {
+        > li.student-card { background: rgba($brand, 0.025); box-shadow: none; }
+    }
+}
+
+.page .left .committee-label {
+    margin: 0 0 2px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: $muted;
+}
+
+// Group headings (PhD Students, Master's Students, ...) match the Research
+// page's section titles.
+.page.advisees-page .left > h5,
+.page.teaching-page .left > h5,
+.page.services-page .left > h5 {
+    @include section-title;
+    scroll-margin-top: $header-h + 20px;
+}

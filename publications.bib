@@ -1,0 +1,53 @@
+---
+layout: null
+permalink: /publications.bib
+sitemap: false
+---
+{%- comment -%}
+Machine-readable citations generated from _data/publications.yml, so this file
+can never drift from the research page.
+
+Entry type is inferred from the venue, which is right for every current record.
+To override one, add `entry_type: article` (or inproceedings) to its entry in
+the data file rather than editing the rule below.
+
+DOIs are taken from `doi:` when present, otherwise extracted from a doi.org
+paper URL. Records whose paper link points elsewhere (IEEE Xplore, ACL
+Anthology, arXiv, OpenReview) simply carry `url` and no `doi`.
+
+Titles are wrapped in double braces so BibTeX styles cannot lowercase the
+acronyms that fill these titles (LLM, AI, Wi-Fi, RF-VNIR).
+{%- endcomment -%}
+{%- assign ob = '{' -%}
+{%- assign cb = '}' -%}
+% BibTeX citations for {{ site.author.name }}
+% {{ '/research/' | absolute_url }}
+% Generated automatically from the site's publication data. Last built {{ site.time | date: '%Y-%m-%d' }}.
+{% for publication in site.data.publications %}
+{%- assign venue = publication.venue -%}
+{%- assign entry_type = 'inproceedings' -%}
+{%- if venue contains 'Journal' or venue contains 'Transactions' or venue contains 'IMWUT' or venue contains 'Letters' or venue contains 'Magazine' -%}
+  {%- assign entry_type = 'article' -%}
+{%- endif -%}
+{%- if publication.entry_type.size > 0 -%}{%- assign entry_type = publication.entry_type -%}{%- endif -%}
+{%- comment -%}
+Test with `size > 0`, never `size == 0`: a missing key is nil, and nil.size is
+nil, so `== 0` is false and the fallback below would never run.
+{%- endcomment -%}
+{%- assign doi = publication.doi -%}
+{%- unless doi.size > 0 -%}
+  {%- if publication.paper contains 'doi.org/' -%}
+    {%- assign doi = publication.paper | split: 'doi.org/' | last -%}
+  {%- endif -%}
+{%- endunless -%}
+@{{ entry_type }}{{ ob }}{{ publication.id }},
+  title     = {{ ob }}{{ ob }}{{ publication.title }}{{ cb }}{{ cb }},
+  author    = {{ ob }}{{ publication.authors | split: ', ' | join: ' and ' }}{{ cb }},
+  {% if entry_type == 'article' %}journal  {% else %}booktitle{% endif %} = {{ ob }}{{ venue }}{{ cb }},
+  year      = {{ ob }}{{ publication.year }}{{ cb }},
+{%- if doi.size > 0 %}
+  doi       = {{ ob }}{{ doi }}{{ cb }},
+{%- endif %}
+  url       = {{ ob }}{{ publication.paper | absolute_url }}{{ cb }}
+{{ cb }}
+{% endfor %}

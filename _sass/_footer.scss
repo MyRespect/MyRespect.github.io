@@ -1,0 +1,61 @@
+.site-footer {
+    // Pushed to the bottom of the flex column in _reset.scss; on long pages it
+    // simply follows the content, which already ends with .page's padding.
+    margin-top: auto;
+
+    text-align: center;
+    background: linear-gradient(180deg, $brand, $brand-dark);
+    border-top: 3px solid $accent;
+    color: rgba(255, 255, 255, 0.72);
+    .wrapper {
+        max-width: $max-width;
+        margin: 0 auto;
+        padding: 16px 24px;
+        text-align: center;
+        font-size: 16px;
+        p {
+            margin: 0;
+            line-height: 2;
+        }
+        .contact {
+            display: inline-block;
+            a {
+                color: rgba(255, 255, 255, 0.8);
+                transition: color 0.2s ease;
+                &:hover {
+                    color: $accent;
+                }
+                i {
+                    margin: 0 5px;
+                    font-size: 20px;
+                }
+            }
+        }
+        .description {
+            display: inline-block;
+        }
+        .power {
+            a {
+                color: $accent;
+                transition: color 0.2s ease;
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:1200px) and (min-width: 770px) {
+    .site-footer {
+        .wrapper {
+            padding: 14px 16px;
+        }
+    }
+}
+@media screen and (max-width: 770px) {
+    .site-footer {
+        .wrapper {
+            padding: 14px 16px;
+        }
+    }
+}

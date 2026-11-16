@@ -1,0 +1,57 @@
+- title: Essential Readings
+  resources:
+    - id: azuma-graduate-school
+      title: 'So Long, and Thanks for the Ph.D.!'
+      author: Ronald T. Azuma
+      source: https://www.cs.unc.edu/~azuma/hitch4.html
+      source_version: Version 1.14, revised February 2019
+      description: Understanding the purpose of a PhD, developing research independence, and preparing for a research career.
+      pdf: /assets/advisee-resources/azuma-graduate-school-notes.pdf
+      pdf_label: PDF Copy
+      format: archived-webpage
+      reviewed: '2026-10-26'
+      notes:
+        - Read before starting a PhD and revisit as your research goals develop.
+        - Covers motivation, initiative, persistence, working relationships, and career choices.
+
+    - id: strunk-elements-of-style
+      title: The Elements of Style (1918)
+      author: William Strunk Jr
+      source: https://www.crockford.com/style.html
+      source_version: 1918 edition, hosted by Douglas Crockford
+      description: Building a foundation in clear prose, effective paragraphs, and concise expression.
+      pdf: /assets/advisee-resources/strunk-elements-of-style-1918.pdf
+      pdf_label: PDF Copy
+      format: reformatted-book
+      reviewed: '2026-10-26'
+      notes:
+        - Use as a reference when drafting and revising academic writing.
+        - This is Strunk's 1918 edition, not a later edition coauthored with E. B. White.
+
+    - id: widom-technical-papers
+      title: Tips for Writing Technical Papers
+      author: Jennifer Widom
+      source: https://cs.stanford.edu/people/widom/paper-writing.html
+      source_version: January 2006 presentation notes
+      description: Structuring technical papers and presenting research problems, contributions, and evidence clearly.
+      pdf: /assets/advisee-resources/widom-tips-writing-papers.pdf
+      pdf_label: PDF Copy
+      format: archived-webpage
+      reviewed: '2026-10-26'
+      notes:
+        - Use when planning a paper's structure and revising its technical presentation.
+        - Covers abstracts, introductions, evaluation, citations, and publication versions.
+
+    - id: kurose-paper-writing
+      title: Top-10 Tips for Writing a Paper
+      author: Jim Kurose
+      source: https://conferences.sigcomm.org/co-next/2006/files/pres/10tipsforwritingapaper.pdf
+      source_version: 12-page slide deck hosted by CoNEXT 2006
+      description: Building a clear research narrative, presenting evidence, and revising from the reader's perspective.
+      pdf: /assets/advisee-resources/10tipsforwritingapaper.pdf
+      pdf_label: PDF Copy
+      format: original-slides
+      reviewed: '2026-10-26'
+      notes:
+        - Consult when outlining a paper and reviewing a draft before submission.
+        - Emphasizes clear contributions, reader context, careful claims, and time for feedback.

@@ -1,0 +1,60 @@
+---
+layout: default
+title: Categories
+nav_exclude: true
+permalink: /category/
+icon: th-list
+description: "Blog posts by Guangjing Wang grouped by category."
+---
+
+
+
+
+<div class="page clearfix">
+    <div class="left">
+        <h1>{{page.title}}</h1>
+        <hr>
+        <ul>
+            {% for category in site.categories %}
+            <h2 id="{{category | first}}">{{category | first}}</h2>
+                {% for posts in category  reversed %}
+                    {% for post in posts %}
+                        {% if post.url %}
+                        <li>
+                            <time>
+                            {{ post.date | date:"%F" }} {{ post.date | date: "%a" }}.
+                            </time>
+                            <a class="title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+
+                            {% include category.html %}
+                            {% include tag.html %}
+                        </li>
+                        {% endif %}
+                    {% endfor %}
+                {% endfor %}
+            {% endfor %}
+        </ul>
+    </div>
+    <button class="anchor" type="button" aria-label="Page contents" aria-controls="pageSidebar" aria-expanded="false"><i class="fa fa-anchor" aria-hidden="true"></i></button>
+    <div class="right" id="pageSidebar">
+        <div class="wrap">
+
+            <!-- Content -->
+            <div class="side content">
+                <div>
+                    Content
+                </div>
+                <ul id="content-side" class="content-ul">
+                    {% for category in site.categories %}
+                        <li>
+                            <a class="scroll" href="#{{ category | first }}">
+                                {{ category | first }} ({{ category | last | size }})
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script defer src="{{ "/js/pageContent.js" | relative_url }}" charset="utf-8"></script>

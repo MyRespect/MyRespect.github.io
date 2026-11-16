@@ -1,0 +1,362 @@
+.clearfix:after {
+    content: "\200B";
+    display: block;
+    height: 0;
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+.page {
+    max-width: $max-width + 48px;
+    padding: 0 24px 40px;
+    box-sizing: border-box;
+    // body is a flex column (see _reset.scss). An auto cross-axis margin turns
+    // off the default `stretch`, so without width:100% the page would
+    // shrink-to-fit its content and narrow on short pages.
+    width: 100%;
+    margin: 0 auto;
+    // word-break: break-all;
+    .left {
+        width: 75%;
+        float: left;
+        box-sizing: border-box;
+        padding: 36px 56px 44px;
+        line-height: 1.7;
+        font-size: 16px;
+        color: $ink;
+        background-color: $surface;
+        border: 1px solid $line;
+        border-radius: $radius;
+        box-shadow: $shadow-card;
+        >h1 {
+            margin-bottom: -10px;
+            font-size: 38px;
+        }
+        h3 {
+            position: relative;
+            padding-left: 14px;
+            &::before {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 0.2em;
+                bottom: 0.2em;
+                width: 4px;
+                border-radius: 4px;
+                background: linear-gradient($brand, $accent);
+            }
+        }
+        a {
+            color: $link;
+            text-decoration: underline;
+            text-decoration-color: rgba($link, 0.2);
+            text-underline-offset: 3px;
+            text-decoration-thickness: 1px;
+            transition: color 0.2s ease, text-decoration-color 0.2s ease;
+            &:hover {
+                color: $link-hover;
+                text-decoration-color: $accent;
+            }
+        }
+
+        // Break long URLs only when they would overflow, never mid-word.
+        a:not([title]){
+            overflow-wrap: anywhere;
+        }
+        ul {
+            >h2 {
+                margin-left: -40px;
+                color: $ink;
+            }
+            li {
+                line-height: 1.8;
+                color: $ink-soft;
+                time {
+                    display: inline-block;
+                    width: 150px;
+                    white-space: nowrap;
+                    font-variant-numeric: tabular-nums;
+                    color: $muted;
+                }
+                .title {
+                    font-weight: 600;
+                    color: $ink;
+                    transition: 0.3s ease;
+                    &:hover {
+                        color: $brand;
+                    }
+                }
+                i {
+                    margin-right: 5px;
+                }
+                .categories {
+                    padding: 0 15px;
+                    i {
+                        color: $muted;
+                    }
+                    a {
+                        padding: 1px 8px;
+                        background-color: rgba($brand, 0.1);
+                        border-radius: 999px;
+                        color: $brand;
+                        font-size: 85%;
+                        font-weight: 500;
+                        text-decoration: none;
+                        transition: 0.2s ease;
+                        &:hover {
+                            color: #fff;
+                            background-color: $brand;
+                        }
+                    }
+                }
+                .pageTag {
+                    i {
+                        color: $accent-ink;
+                    }
+                    a {
+                        margin-right: 4px;
+                        padding: 1px 8px;
+                        background-color: rgba($accent, 0.4);
+                        border-radius: 999px;
+                        color: $brand-dark;
+                        font-size: 85%;
+                        font-weight: 500;
+                        text-decoration: none;
+                        transition: 0.2s ease;
+                        &:hover {
+                            background-color: rgba($accent, 0.8);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .anchor {
+        display: none;
+    }
+    .anchor:focus-visible {
+        outline: 2px solid $brand;
+        outline-offset: 3px;
+    }
+    .right {
+        float: left;
+        width: 25%;
+        box-sizing: border-box;
+        padding-left: 24px;
+        top: 0;
+        .fixed {
+            position: fixed;
+            top: $header-h + 24px;
+        }
+        .scroll-bottom {
+            position: absolute;
+            bottom: 190px;
+        }
+        .side {
+            box-sizing: border-box;
+            background-color: $surface;
+            border: 1px solid $line;
+            border-radius: $radius;
+            box-shadow: $shadow-card;
+            overflow: hidden;
+            padding-bottom: 6px;
+            -ms-word-break: break-all;
+            word-break: break-all;
+            /* Non standard for webkit */
+            word-break: break-word;
+            -webkit-hyphens: auto;
+            -moz-hyphens: auto;
+            -ms-hyphens: auto;
+            hyphens: auto;
+            >div {
+                padding: 12px 15px;
+                border-bottom: 1px solid $line;
+                font-size: 16px;
+                font-weight: 600;
+            }
+            a {
+                color: $ink-soft;
+                transition: color 0.2s ease;
+                &:hover {
+                    color: $brand;
+                }
+            }
+        }
+        .content-ul {
+            overflow-y: auto;
+            padding-right: 10px;
+            line-height: 1.8;
+            margin: 10px 0 4px;
+            padding-left: 30px;
+            font-size: 15px;
+            li::marker {
+                color: $accent-ink;
+            }
+            ul {
+                padding-left: 20px;
+            }
+        }
+        .sidebar-portrait {
+            text-align: center;
+            padding-top: 28px;
+            padding-bottom: 8px;
+            border-bottom: none !important;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+            & + .side {
+                border-top: none;
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
+            }
+            background:
+                radial-gradient(circle at 50% 0%, rgba($accent, 0.45), transparent 70%),
+                linear-gradient(180deg, rgba($brand, 0.08), transparent);
+
+            img {
+                width: 40%;
+                max-width: 120px;
+                height: auto;
+                border-radius: 50%;
+                border: 4px solid $surface;
+                box-shadow: 0 0 0 2px $accent, 0 10px 24px rgba(0, 40, 25, 0.2);
+            }
+        }
+        .sidebar-name {
+            text-align: center;
+            font-family: $font-serif;
+            font-size: 17px !important;
+            padding: 14px 10px !important;
+            color: $ink;
+        }
+    }
+}
+// Pairs with the contextmenu handler in js/main.js. touch-callout stops the
+// iOS long-press "Save Image" sheet, which a contextmenu listener does not
+// catch; user-select keeps the image out of a drag-selection copy.
+.sidebar-portrait img {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+// Present to screen readers and search engines, absent from the visual layout.
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    clip: rect(0, 0, 0, 0);
+    clip-path: inset(50%);
+}
+.lab-banner {
+    text-align: center;
+    font-size: 24px;
+
+    a {
+        color: $brand;
+    }
+
+    .lab-tagline {
+        margin: 8px 0 20px;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 1.6;
+        color: $ink-soft;
+    }
+}
+@media screen and (max-width:1200px) and (min-width: 770px) {
+    .page {
+        .left {
+            padding: 28px 36px 36px;
+        }
+    }
+}
+@media screen and (max-width: 770px) {
+    .page {
+        padding: 0 12px 30px;
+        .left {
+            width: 100%;
+            float: left;
+            padding: 18px 18px 24px;
+            font-size: 14px;
+            >h1 {
+                font-size: 25px;
+                margin-bottom: -10px;
+            }
+            ul {
+                padding-left: 20px;
+                >h2 {
+                    font-size: 20px;
+
+                    // margin: 0;
+                    margin-left: -20px;
+                }
+                li {
+                    margin: 20px 0;
+                    time {
+                        display: block;
+                        width: auto;
+                    }
+                    .title {
+                        display: block;
+                        font-size: 16px;
+                    }
+                    .categories {
+                        font-size: 12px;
+                        padding-left: 0;
+                        padding-right: 10px;
+                    }
+                }
+            }
+        }
+        .anchor {
+            display: block;
+            visibility: visible;
+            position: fixed;
+            top: 64px;
+            right: 14px;
+            z-index: 150;
+            padding: 8px 11px;
+            color: $brand;
+            font-size: 15px;
+            background-color: $surface;
+            border-radius: 10px;
+            box-shadow: $shadow-pop;
+            opacity: 0.9;
+            transition: 0.2s cubic-bezier(0.5, 0.1, 0.51, 1.38);
+        }
+        .anchor-hide {
+            opacity: 0;
+            visibility: hidden;
+        }
+        .right {
+            visibility: hidden;
+
+            // display: none;
+            position: fixed;
+
+            // z-index: 190;
+            float: none;
+            width: auto;
+            max-width: 95%;
+            padding: 0;
+            top: 64px;
+            right: 14px;
+            z-index: 150;
+            opacity: 0;
+            transform-origin: 100% 0;
+            transform: scale(0.1);
+            transition: 0.2s cubic-bezier(0.5, 0.1, 0.51, 1.38);
+        }
+        .right-show {
+            visibility: visible;
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+}

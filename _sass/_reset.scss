@@ -1,0 +1,148 @@
+body,
+html,
+div,
+header,
+footer,
+nav,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+html {
+    height: 100%;
+}
+body {
+    font-family: $font-sans;
+    font-feature-settings: "cv11", "ss01";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: $ink;
+    background-color: $bg;
+    position: relative;
+    // Sticky footer: the page is a column and .site-footer takes the leftover
+    // space with margin-top:auto, so short pages still push it to the bottom
+    // without reserving a fixed strip of blank space below the content.
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+a {
+    text-decoration: none;
+}
+::selection {
+    background: rgba($accent, 0.55);
+    color: $ink;
+}
+button {
+    border: none;
+    outline: none;
+}
+hr {
+    border: 0;
+    border-top: 1px solid $line;
+    margin: 20px 0;
+}
+
+///////////
+h1,
+h2,
+h3 {
+    font-family: $font-serif;
+    font-weight: 600;
+    color: $ink;
+    letter-spacing: -0.01em;
+    line-height: 1.25;
+}
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    color: $ink;
+}
+h1 {
+    font-size: 36px;
+}
+h2 {
+    font-size: 30px;
+    border-bottom: 1px solid $line;
+    padding-bottom: 6px;
+}
+h3 {
+    font-size: 26px;
+}
+h4 {
+    font-size: 22px;
+}
+h5 {
+    font-size: 20px;
+}
+h6 {
+    font-size: 18px;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 20px 0 10px;
+}
+blockquote {
+    color: #444;
+    border-left: 4px solid $accent;
+    border-radius: 0 8px 8px 0;
+    background: rgba($accent, 0.12);
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    p:last-of-type{
+        margin: 0;
+    }
+}
+table {
+    border-top: 2px solid #777;
+    border-bottom: 2px solid #777;
+    margin: 8px 0;
+    border-collapse: collapse;
+    thead {
+        border-bottom: 1px solid #777;
+        background-color: #aaa;
+        color: #fff;
+    }
+    th {
+        padding: 2px 10px;
+        text-align: left;
+    }
+    tbody {
+        tr {
+            &:nth-of-type(2n+1) {
+                background-color: $surface;
+            }
+            &:nth-of-type(2n) {
+                background-color: rgba($brand, 0.04);
+            }
+        }
+    }
+    td {
+        padding: 2px 10px;
+    }
+}
+p {
+    margin: 0 0 10px;
+}
+img {
+    max-width: 100%;
+}

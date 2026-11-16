@@ -1,0 +1,31 @@
+{%- comment -%}
+Card grid of lab students from _data/lab_students.yml.
+  {% include student-cards.html role="phd" %}    current students of one role
+  {% include student-cards.html alumni=true %}   all graduated students
+  {% include student-cards.html committee="phd" %} advisory-committee students
+                                                  (_data/committee_students.yml)
+Kept free of blank lines so kramdown treats the output as one HTML block.
+{%- endcomment -%}
+{%- assign degree_labels = "phd:Ph.D.,ms:M.S.,undergrad:B.S." | split: "," -%}
+{%- if include.committee -%}
+{%- assign students = site.data.committee_students | where: "role", include.committee -%}
+{%- elsif include.alumni -%}
+{%- assign students = site.data.lab_students | where: "graduated", true -%}
+{%- else -%}
+{%- assign students = site.data.lab_students | where: "role", include.role | where_exp: "s", "s.graduated != true" -%}
+{%- endif -%}
+<ul class="student-grid{% if include.alumni %} student-grid-alumni{% endif %}">
+{%- for s in students -%}
+{%- assign degree = "" -%}
+{%- for pair in degree_labels -%}{%- assign kv = pair | split: ":" -%}{%- if kv[0] == s.role -%}{%- assign degree = kv[1] -%}{%- endif -%}{%- endfor -%}
+<li class="student-card">
+<span class="student-info">
+<span class="student-name">{% if s.linkedin %}<a href="{{ s.linkedin }}" target="_blank" rel="noopener">{{ s.name }}</a>{% else %}{{ s.name }}{% endif %}</span>
+{%- comment -%} Graduate degrees default to "thesis defended", undergraduates to "graduated"; `milestone` overrides either. {%- endcomment -%}
+{%- assign milestone = "thesis defended" -%}{%- if s.role == "undergrad" -%}{%- assign milestone = "graduated" -%}{%- endif -%}{%- if s.milestone -%}{%- assign milestone = s.milestone -%}{%- endif -%}
+{%- if include.alumni %}<span class="student-note">{{ degree }}, {% if s.graduation %}{{ milestone }} in {{ s.graduation }}{% else %}RAISE Lab{% endif %}</span>{% elsif s.note %}<span class="student-note">{{ s.note }}</span>{% endif -%}
+</span>
+{%- if s.linkedin %}<a class="student-link" href="{{ s.linkedin }}" target="_blank" rel="noopener" aria-label="{{ s.name }} on LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a>{% endif -%}
+</li>
+{%- endfor -%}
+</ul>

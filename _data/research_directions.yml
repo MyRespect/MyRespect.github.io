@@ -1,0 +1,24 @@
+- id: agentic-ai-security
+  title: Agentic AI and Security
+  nav_title: Agentic AI and Security
+  description: Building and securing AI agents and their underlying language models, including cyber deception, persistent agents, backdoors, and unsafe chatbot behavior.
+
+- id: vision-speech-security
+  title: Computer Vision, Speech and Security
+  nav_title: Vision, Speech and Security
+  description: Understanding and protecting vision, speech, and multimodal models through adversarial robustness, deepfake detection, watermarking, and unlearning.
+
+- id: distributed-learning-security
+  title: Distributed Learning and Security
+  nav_title: Distributed Learning and Security
+  description: Developing efficient distributed learning and inference, analyzing federated learning attacks, and using federated methods for IoT threat and vulnerability detection.
+
+- id: systems-security-privacy
+  title: Systems Security and Privacy
+  nav_title: Systems Security and Privacy
+  description: Securing connected systems and protecting privacy through smart-home threat detection, wireless tracking analysis, and defenses against website fingerprinting.
+
+- id: sensing-privacy
+  title: Sensing and Privacy
+  nav_title: Sensing and Privacy
+  description: Building human and environmental sensing systems while protecting activity data and enabling privacy-aware data sharing.

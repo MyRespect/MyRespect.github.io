@@ -1,0 +1,98 @@
+# RAISE Lab students. This one list drives two things:
+#   - the student cards and Alumni section on the Advisees page
+#   - the dagger (†) after lab students' names on the Research page
+#
+# name:      must match the spelling in _data/publications.yml `authors`
+# role:      phd | ms | undergrad
+# linkedin:  optional profile URL
+# note:      optional short line under the name
+# graduated: true moves the student to the Alumni section
+# graduation: optional, shown on the alumni card, e.g. "May 2025" or "2025".
+#             M.S./Ph.D. cards read "M.S., thesis defended in May 2025";
+#             B.S. cards read "B.S., graduated in May 2025".
+#             Without it, the card reads "M.S., RAISE Lab".
+# milestone:  optional, replaces "thesis defended"/"graduated" for one student,
+#             e.g. milestone: "graduated" for an M.S. student without a thesis
+#
+# Advisory-committee students are listed in _data/committee_students.yml
+# because they belong to other labs.
+
+# PhD students
+- name: Yuwen Cui
+  role: phd
+  linkedin: https://www.linkedin.com/in/yuwencui1/
+  note: "Prev-Advisor: Dr. Yao Liu"
+
+- name: Changjia Zhu
+  role: phd
+  linkedin: https://www.linkedin.com/in/changjia-zhu-94767b24a/
+  note: "Prev-Advisor: Dr. Yao Liu"
+
+- name: Alabi Mehzabin Anisha
+  role: phd
+  linkedin: https://www.linkedin.com/in/realamanisha/
+  note: "Co-advised with Dr. Sriram Chellappan"
+
+- name: Kai Wei
+  role: phd
+  linkedin: https://www.linkedin.com/in/kaiwei2000/
+
+- name: Kehan Shen
+  role: phd
+  linkedin: https://www.linkedin.com/in/khan-shen-4a5725119
+
+- name: Tural Hagverdiyev
+  role: phd
+  linkedin: https://www.linkedin.com/in/hagverdiyevtural/
+
+# Master's students
+- name: Mallika Shaik
+  role: ms
+  linkedin: https://www.linkedin.com/in/mallika-shaik-usf/
+
+- name: Ryan Powers
+  role: ms
+  linkedin: https://www.linkedin.com/in/rypow/
+
+- name: Dylan Girrens
+  role: ms
+  linkedin: https://www.linkedin.com/in/dylan-girrens-5b4450207/
+  graduated: true
+  graduation: "Fall 2026"
+
+- name: Suri Ramachandran
+  role: ms
+  graduated: true
+  graduation: "Fall 2026"
+
+- name: Srinija Reddy Maddula
+  role: ms
+  linkedin: https://www.linkedin.com/in/srinija-reddy-maddula-543125256/
+  graduated: true
+  graduation: "Fall 2026"
+
+- name: Aastha Sharma
+  role: ms
+  linkedin: https://www.linkedin.com/in/aasthestial/
+  graduated: true
+  graduation: "Spring 2026"
+
+# Undergraduates
+- name: Rodela Ghosh
+  role: undergrad
+  linkedin: https://www.linkedin.com/in/rodela-ghosh/
+
+- name: Apoorv Awasthi
+  role: undergrad
+  linkedin: https://www.linkedin.com/in/apoorv-awasthi-468192253/
+
+- name: Dang Bao Trinh
+  role: undergrad
+
+- name: Khanh Vu
+  role: undergrad
+  linkedin: https://www.linkedin.com/in/khanhduyvu/
+  graduated: true
+  graduation: "Fall 2025"
+
+

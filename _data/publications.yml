@@ -1,0 +1,335 @@
+# Each publication has one primary research direction.
+# Preprints remain in this data file and are filtered out of the research page.
+
+# Agentic AI and Security
+
+- id: "spa-2026"
+  direction: "agentic-ai-security"
+  title: "SPA: Securing Persistent LLM Agents Across Queries with Plan-First Information-Flow Control"
+  authors: "Dylan Girrens, Guangjing Wang"
+  year: 2026
+  venue: "arXiv"
+  kind: "Preprint"
+  paper: "https://arxiv.org/abs/2608.27234"
+
+- id: "mantis-2026"
+  direction: "agentic-ai-security"
+  title: "A Multi-Agent Framework for High-Interaction Terminal Simulation"
+  authors: "Kai Wei, Yuwen Cui, Kehan Shen, Hua Wei, Guangjing Wang"
+  year: 2026
+  venue: "Annual Meeting of the Association for Computational Linguistics (ACL)"
+  paper: "https://aclanthology.org/2026.acl-long.1515/"
+  code: "https://github.com/kaiwei666a/MANTIS_Terminal_Simulation"
+
+- id: "agentic-honeypot-2025"
+  direction: "agentic-ai-security"
+  title: "Poster: Agentic Shell Honeypot Using Structured Logging"
+  authors: "Kai Wei, Guangjing Wang"
+  year: 2025
+  venue: "ACM Conference on Computer and Communications Security (CCS)"
+  paper: "https://doi.org/10.1145/3719027.3760731"
+
+- id: "foundation-model-survey-2025"
+  direction: "agentic-ai-security"
+  title: "A Comprehensive Survey on Pretrained Foundation Models: A History from BERT to ChatGPT"
+  authors: "Ce Zhou, Qian Li, Chen Li, Jun Yu, Yixin Liu, Guangjing Wang, Kai Zhang, Cheng Ji, Qiben Yan, Lifang He, Hao Peng, Jianxin Li, Jia Wu, Ziwei Liu, Pengtao Xie, Caiming Xiong, Jian Pei, Philip S. Yu, Lichao Sun"
+  year: 2025
+  venue: "International Journal of Machine Learning and Cybernetics (IJMLC)"
+  kind: "Survey"
+  paper: "https://doi.org/10.1007/s13042-024-02443-6"
+  note: "First published online in 2024."
+
+- id: "human-feedback-poisoning-2024"
+  direction: "agentic-ai-security"
+  title: "The Dark Side of Human Feedback: Poisoning Large Language Models via User Inputs"
+  authors: "Bocheng Chen, Hanqing Guo, Guangjing Wang, Yuanda Wang, Qiben Yan"
+  year: 2024
+  venue: "arXiv"
+  kind: "Preprint"
+  paper: "https://arxiv.org/abs/2409.00787"
+
+- id: "chatbot-backdoor-2024"
+  direction: "agentic-ai-security"
+  title: "Multi-turn Hidden Backdoor in Large Language Model-powered Chatbot Models"
+  authors: "Bocheng Chen, Nikolay Ivanov, Guangjing Wang, Qiben Yan"
+  year: 2024
+  venue: "ACM Asia Conference on Computer and Communications Security (AsiaCCS)"
+  paper: "https://doi.org/10.1145/3634737.3656289"
+
+- id: "chatbot-toxicity-2023"
+  direction: "agentic-ai-security"
+  title: "Understanding Multi-turn Toxic Behaviors in Open-domain Chatbots"
+  authors: "Bocheng Chen, Guangjing Wang, Hanqing Guo, Yuanda Wang, Qiben Yan"
+  year: 2023
+  venue: "International Symposium on Research in Attacks, Intrusions and Defenses (RAID)"
+  paper: "https://doi.org/10.1145/3607199.3607237"
+
+# Vision, Speech and Security
+
+- id: "which-source-wins-2026"
+  direction: "vision-speech-security"
+  title: "Which Source Wins? Task-Dependent Reliance in Vision-Language Models"
+  authors: "Rodela Ghosh, Aviral Gupta, Guangjing Wang"
+  year: 2026
+  venue: "arXiv"
+  kind: "Preprint"
+  paper: "https://arxiv.org/abs/2608.17205"
+
+- id: "cross-modal-unlearning-2026"
+  direction: "vision-speech-security"
+  title: "One Modality to Forget Them All: Enhancing Cross-Modal Unlearning in Vision-Language Models"
+  authors: "Sudharshan Balaji, Yili Ren, Guangjing Wang, Yimin Chen, Ning Wang"
+  year: 2026
+  venue: "arXiv"
+  kind: "Preprint"
+  paper: "https://arxiv.org/abs/2607.16442"
+
+- id: "voxenes-2026"
+  direction: "vision-speech-security"
+  title: "VoxENES 2026: Benchmarking Generalization of Speech Spoofing Detectors Against LLM-Era TTS and Voice Conversion"
+  authors: "Aastha Sharma, Guangjing Wang"
+  year: 2026
+  venue: "Annual Conference of the International Speech Communication Association (Interspeech)"
+  paper: "https://arxiv.org/abs/2607.11706"
+
+- id: "audio-watermarking-2026"
+  direction: "vision-speech-security"
+  title: "Learning to Evade: Adaptive Attacks on Audio Watermarking"
+  authors: "Weikang Ding, Hanqing Guo, Rui Duan, Guangjing Wang, Yuanda Wang, Mingzhe Chen, Qiben Yan"
+  year: 2026
+  venue: "Annual Conference of the International Speech Communication Association (Interspeech)"
+  paper: "https://arxiv.org/abs/2606.22310"
+
+- id: "genuvoice-2026"
+  direction: "vision-speech-security"
+  title: "A Unified Feature Mixture Framework for Joint Speech and Singing Deepfake Detection"
+  authors: "Aastha Sharma, Guangjing Wang"
+  year: 2026
+  venue: "Findings of the Association for Computational Linguistics (Findings of ACL)"
+  paper: "https://aclanthology.org/2026.findings-acl.1245/"
+  code: "https://github.com/aastha-sharma/genuvoice"
+
+- id: "optical-lens-2026"
+  direction: "vision-speech-security"
+  title: "Optical Lens Attack on Monocular Depth Estimation for Autonomous Driving"
+  authors: "Ce Zhou, Qiben Yan, Daniel Kent, Guangjing Wang, Weikang Ding, Ziqi Zhang, Hayder Radha"
+  year: 2026
+  venue: "ACM Transactions on Cyber-Physical Systems (TCPS)"
+  paper: "https://doi.org/10.1145/3812541"
+
+- id: "crowdgen-2026"
+  direction: "vision-speech-security"
+  title: "Generative Adversarial Perturbations with Cross-paradigm Transferability on Localized Crowd Counting"
+  authors: "Alabi Mehzabin Anisha, Guangjing Wang, Sriram Chellappan"
+  year: 2026
+  venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  paper: "https://arxiv.org/abs/2603.24821"
+  code: "https://github.com/simurgh7/CrowdGen"
+
+- id: "clearmask-2025"
+  direction: "vision-speech-security"
+  title: "ClearMask: Noise-Free and Naturalness-Preserving Protection Against Voice Deepfake Attacks"
+  authors: "Yuanda Wang, Bocheng Chen, Hanqing Guo, Guangjing Wang, Weikang Ding, Qiben Yan"
+  year: 2025
+  venue: "ACM Asia Conference on Computer and Communications Security (AsiaCCS)"
+  paper: "https://doi.org/10.1145/3708821.3733881"
+
+- id: "wavepurifier-2024"
+  direction: "vision-speech-security"
+  title: "WavePurifier: Purifying Audio Adversarial Examples via Hierarchical Diffusion Models"
+  authors: "Hanqing Guo, Guangjing Wang, Bocheng Chen, Yuanda Wang, Xiao Zhang, Xun Chen, Qiben Yan, Li Xiao"
+  year: 2024
+  venue: "ACM Annual International Conference on Mobile Computing and Networking (MobiCom)"
+  paper: "https://doi.org/10.1145/3636534.3690692"
+  project: "https://wavepurifier.github.io/"
+
+- id: "optical-lens-2024"
+  direction: "vision-speech-security"
+  title: "Optical Lens Attack on Deep Learning Based Monocular Depth Estimation"
+  authors: "Ce Zhou, Qiben Yan, Daniel Kent, Guangjing Wang, Ziqi Zhang, Hayder Radha"
+  year: 2024
+  venue: "EAI International Conference on Security and Privacy in Communication Networks (SecureComm)"
+  paper: "https://doi.org/10.1007/978-3-031-94445-1_12"
+
+- id: "beyond-boundaries-2023"
+  direction: "vision-speech-security"
+  title: "Beyond Boundaries: A Comprehensive Survey of Transferable Attacks on AI Systems"
+  authors: "Guangjing Wang, Ce Zhou, Yuanda Wang, Bocheng Chen, Hanqing Guo, Qiben Yan"
+  year: 2023
+  venue: "arXiv"
+  kind: "Preprint · Survey"
+  paper: "https://arxiv.org/abs/2311.11796"
+
+- id: "phantomsound-2023"
+  direction: "vision-speech-security"
+  title: "PhantomSound: Black-box, Query-efficient Audio Adversarial Attack via Split-second Phoneme Injection"
+  authors: "Hanqing Guo, Guangjing Wang, Yuanda Wang, Bocheng Chen, Qiben Yan, Li Xiao"
+  year: 2023
+  venue: "International Symposium on Research in Attacks, Intrusions and Defenses (RAID)"
+  paper: "https://doi.org/10.1145/3607199.3607240"
+
+- id: "vsmask-2023"
+  direction: "vision-speech-security"
+  title: "VSMask: Defending Against Voice Synthesis Attack via Real-Time Predictive Perturbation"
+  authors: "Yuanda Wang, Hanqing Guo, Guangjing Wang, Bocheng Chen, Qiben Yan"
+  year: 2023
+  venue: "ACM Conference on Security and Privacy in Wireless and Mobile Networks (WiSec)"
+  paper: "https://doi.org/10.1145/3558482.3590189"
+
+# Distributed Learning and Security
+
+- id: "snail-2026"
+  direction: "distributed-learning-security"
+  title: "Snail: Scheduler-Driven Backdoor Injection in Split Federated Learning via Gradual Perturbation"
+  authors: "Zhengyuan Jiang, Sudharshan Balaji, Yimin Chen, Yang Xiao, Guangjing Wang, Yili Ren, Ning Wang"
+  year: 2026
+  venue: "IEEE Conference on Communications and Network Security (CNS)"
+  paper: "https://ieeexplore.ieee.org/document/11720909/"
+
+- id: "client-sample-selection-2024"
+  direction: "distributed-learning-security"
+  title: "Joint Client-and-Sample Selection for Federated Learning via Bi-level Optimization"
+  authors: "Anran Li, Guangjing Wang, Ming Hu, Jianfei Sun, Lan Zhang, Luu Anh Tuan, Han Yu"
+  year: 2024
+  venue: "IEEE Transactions on Mobile Computing (TMC)"
+  paper: "https://ieeexplore.ieee.org/document/10668811/"
+
+- id: "federated-threat-detection-2023"
+  direction: "distributed-learning-security"
+  title: "Federated Threat Detection for Smart Home IoT Rules"
+  authors: "Guangjing Wang, Qiben Yan"
+  year: 2023
+  venue: "International Workshop on Federated Learning for Distributed Data Mining (FL4Data-Mining)"
+  kind: "Workshop"
+  paper: "https://openreview.net/forum?id=SK_KfAh8MtF"
+
+- id: "fexiot-2023"
+  direction: "distributed-learning-security"
+  title: "Federated IoT Interaction Vulnerability Analysis"
+  authors: "Guangjing Wang, Hanqing Guo, Anran Li, Xiaorui Liu, Qiben Yan"
+  year: 2023
+  venue: "IEEE International Conference on Data Engineering (ICDE)"
+  paper: "https://ieeexplore.ieee.org/document/10184681/"
+
+- id: "patch-2023"
+  direction: "distributed-learning-security"
+  title: "Patch: A Plug-in Framework of Non-blocking Inference for Distributed Multimodal System"
+  authors: "Juexing Wang, Guangjing Wang, Xiao Zhang, Li Liu, Huacheng Zeng, Li Xiao, Zhichao Cao, Lin Gu, Tianxing Li"
+  year: 2023
+  venue: "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)"
+  paper: "https://doi.org/10.1145/3610885"
+
+- id: "dynamicfl-2023"
+  direction: "distributed-learning-security"
+  title: "DynamicFL: Balancing Communication Dynamics and Client Manipulation for Federated Learning"
+  authors: "Bocheng Chen, Nikolay Ivanov, Guangjing Wang, Qiben Yan"
+  year: 2023
+  venue: "IEEE International Conference on Sensing, Communication, and Networking (SECON)"
+  paper: "https://ieeexplore.ieee.org/document/10287430/"
+
+# Systems Security and Privacy
+
+- id: "rxstalker-2026"
+  direction: "systems-security-privacy"
+  title: "Exploiting Wi-Fi Fingerprints for Practical Device Localization and Tracking in Public Environments"
+  authors: "Yuwen Cui, Guangjing Wang, Kai Wei, Kehan Shen, Yao Liu"
+  year: 2026
+  venue: "IEEE Annual Computer Security Applications Conference (ACSAC)"
+  paper: "https://github.com/RxStalker/RxStalker"
+  paper_label: "PDF"
+  code: "https://github.com/RxStalker/RxStalker"
+
+- id: "chameleon-2026"
+  direction: "systems-security-privacy"
+  title: "Chameleon: Robust Defense Against Tor Website Fingerprinting via Many-to-Many Traffic Morphing"
+  authors: "Yuwen Cui, Kai Wei, Kehan Shen, Ning Wang, Zhuo Lu, Yao Liu, Guangjing Wang"
+  year: 2026
+  venue: "arXiv"
+  kind: "Preprint"
+  paper: "https://arxiv.org/abs/2608.20160"
+
+- id: "website-fingerprinting-llm-2026"
+  direction: "systems-security-privacy"
+  title: "Poster: Towards Model Drift Resistant Website Fingerprinting with Time-Series LLMs"
+  authors: "Yuwen Cui, Kai Wei, Kehan Shen, Guangjing Wang"
+  year: 2026
+  venue: "Network and Distributed System Security Symposium (NDSS)"
+  paper: "https://www.ndss-symposium.org/wp-content/uploads/ndss26-poster-18.pdf"
+
+- id: "website-fingerprinting-survey-2025"
+  direction: "systems-security-privacy"
+  title: "A Comprehensive Survey of Website Fingerprinting Attacks and Defenses in Tor: Advances and Open Challenges"
+  authors: "Yuwen Cui, Guangjing Wang, Khanh Vu, Kai Wei, Kehan Shen, Zhengyuan Jiang, Xiao Han, Ning Wang, Zhuo Lu, Yao Liu"
+  year: 2025
+  venue: "arXiv"
+  kind: "Preprint · Survey"
+  paper: "https://arxiv.org/abs/2510.11804"
+
+- id: "glint-2023"
+  direction: "systems-security-privacy"
+  title: "Graph Learning for Interactive Threat Detection in Heterogeneous Smart Home Rule Data"
+  authors: "Guangjing Wang, Nikolay Ivanov, Bocheng Chen, Qi Wang, ThanhVu Nguyen, Qiben Yan"
+  year: 2023
+  venue: "ACM International Conference on Management of Data (SIGMOD)"
+  paper: "https://doi.org/10.1145/3588956"
+  code: "https://github.com/seitlab/Glint"
+
+# Sensing and Privacy
+
+- id: "soilnutri-2026"
+  direction: "sensing-privacy"
+  title: "SoilNutri: A Passive Metasurface-Based, Low-Cost System for Soil Moisture and Nitrogen Monitoring"
+  authors: "Juexing Wang, Binbin Xie, Yimeng Liu, Minhao Cui, Xiao Zhang, Guangjing Wang, Ke Sun, Zhichao Cao, Huacheng Zeng, Qingxu Jin, Younsuk Dong, Hui Li, Jie Xiong, Tianxing Li"
+  year: 2026
+  venue: "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)"
+  paper: "https://doi.org/10.1145/3789674"
+
+- id: "hippo-2024"
+  direction: "sensing-privacy"
+  title: "Protecting Activity Sensing Data Privacy Using Hierarchical Information Dissociation"
+  authors: "Guangjing Wang, Hanqing Guo, Yuanda Wang, Bocheng Chen, Ce Zhou, Qiben Yan"
+  year: 2024
+  venue: "IEEE Conference on Communications and Network Security (CNS)"
+  paper: "https://arxiv.org/abs/2409.03796"
+
+- id: "decoding-emotions-2024"
+  direction: "sensing-privacy"
+  title: "Decoding Emotions: Unveiling Facial Expressions through Acoustic Sensing with Contrastive Attention"
+  authors: "Guangjing Wang, Juexing Wang, Ce Zhou, Weikang Ding, Huacheng Zeng, Tianxing Li, Qiben Yan"
+  year: 2024
+  venue: "arXiv"
+  kind: "Preprint"
+  paper: "https://arxiv.org/abs/2410.12811"
+
+- id: "soilcares-2024"
+  direction: "sensing-privacy"
+  title: "SoilCares: Towards Low-cost Soil Macronutrients and Moisture Monitoring Using RF-VNIR Sensing"
+  authors: "Juexing Wang, Yuda Feng, Gouree Kumbhar, Guangjing Wang, Qiben Yan, Qingxu Jin, Robert C. Ferrier, Jie Xiong, Tianxing Li"
+  year: 2024
+  venue: "ACM International Conference on Mobile Systems, Applications, and Services (MobiSys)"
+  paper: "https://doi.org/10.1145/3643832.3661868"
+
+- id: "facer-2023"
+  direction: "sensing-privacy"
+  title: "FacER: Contrastive Attention based Expression Recognition via Smartphone Earpiece Speaker"
+  authors: "Guangjing Wang, Qiben Yan, Shane Patrarungrong, Juexing Wang, Huacheng Zeng"
+  year: 2023
+  venue: "IEEE Conference on Computer Communications (INFOCOM)"
+  paper: "https://ieeexplore.ieee.org/document/10228985/"
+  code: "https://github.com/MyRespect/FaceAcousticSensing"
+
+- id: "shad-2019"
+  direction: "sensing-privacy"
+  title: "Shad: Privacy-friendly Shared Activity Detection and Data Sharing"
+  authors: "Feng Han, Lan Zhang, Xuanke You, Guangjing Wang, Xiang-Yang Li"
+  year: 2019
+  venue: "IEEE International Conference on Mobile Ad-Hoc and Smart Systems (MASS)"
+  paper: "https://ieeexplore.ieee.org/document/9077362/"
+
+- id: "socialite-2018"
+  direction: "sensing-privacy"
+  title: "Socialite: Social Activity Mining and Friend Auto-labeling"
+  authors: "Guangjing Wang, Lan Zhang, Zhi Yang, Xiang-Yang Li"
+  year: 2018
+  venue: "IEEE International Performance Computing and Communications Conference (IPCCC)"
+  paper: "https://www.computer.org/csdl/proceedings-article/ipccc/2018/08710834/1axfH1q30T6"

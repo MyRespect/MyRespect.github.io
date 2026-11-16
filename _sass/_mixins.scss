@@ -1,0 +1,29 @@
+// Shared style blocks. Imported right after _variables.scss.
+
+// Section title: bold black serif with a green-to-gold bar on the left and
+// a hairline rule below. Used for the Research page's direction headings and
+// the Advisees page's group headings, so both stay identical.
+@mixin section-title {
+    position: relative;
+    margin: 34px 0 14px;
+    padding: 0 0 8px 16px;
+    font-family: $font-serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 1.25;
+    letter-spacing: -0.015em;
+    color: #000;
+    border-bottom: 1px solid $line;
+    text-rendering: optimizeLegibility;
+
+    &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0.15em;
+        bottom: calc(8px + 0.15em);
+        width: 4px;
+        border-radius: 4px;
+        background: linear-gradient($brand, $accent);
+    }
+}
